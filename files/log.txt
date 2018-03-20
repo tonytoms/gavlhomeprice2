@@ -1,0 +1,1068 @@
+----------------------------------------------------------------------
+STEP 1 of 4 : URL SCRAPPING DOMAIN.COM.AU----  2018-03-15 14:28:11.484805
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+STEP 1 of 4 : URL SCRAPPING DOMAIN.COM.AU----  2018-03-15 14:29:08.245978
+----------------------------------------------------------------------
+ Starting from POST CODE :3000
+Post Code:3000 : price Range :&price=50000-100000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=50000-100000&page=1 : Listings Found :15
+Post Code:3000 : price Range :&price=100000-150000 : Number of Pages: 5
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=100000-150000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=100000-150000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=100000-150000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=100000-150000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=100000-150000&page=5 : Listings Found :7
+Post Code:3000 : price Range :&price=150000-200000 : Number of Pages: 11
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=150000-200000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=150000-200000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=150000-200000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=150000-200000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=150000-200000&page=5 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=150000-200000&page=6 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=150000-200000&page=7 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=150000-200000&page=8 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=150000-200000&page=9 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=150000-200000&page=10 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=150000-200000&page=11 : Listings Found :8
+Post Code:3000 : price Range :&price=200000-250000 : Number of Pages: 15
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=5 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=6 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=7 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=8 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=9 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=10 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=11 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=12 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=13 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=14 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=15 : Listings Found :14
+Post Code:3000 : price Range :&price=250000-300000 : Number of Pages: 18
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=5 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=6 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=7 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=8 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=9 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=10 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=11 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=12 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=13 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=14 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=15 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=16 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=17 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=18 : Listings Found :20
+Post Code:3000 : price Range :&price=300000-350000 : Number of Pages: 29
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=5 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=6 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=7 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=8 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=9 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=10 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=11 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=12 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=13 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=14 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=15 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=16 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=17 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=18 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=19 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=20 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=21 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=22 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=23 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=24 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=25 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=26 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=27 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=28 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=29 : Listings Found :13
+Post Code:3000 : price Range :&price=350000-400000 : Number of Pages: 29
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=5 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=6 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=7 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=8 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=9 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=10 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=11 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=12 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=13 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=14 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=15 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=16 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=17 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=18 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=19 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=20 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=21 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=22 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=23 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=24 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=25 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=26 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=27 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=28 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=29 : Listings Found :12
+Post Code:3000 : price Range :&price=400000-450000 : Number of Pages: 27
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=5 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=6 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=7 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=8 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=9 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=10 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=11 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=12 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=13 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=14 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=15 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=16 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=17 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=18 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=19 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=20 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=21 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=22 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=23 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=24 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=25 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=26 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=27 : Listings Found :5
+Post Code:3000 : price Range :&price=450000-500000 : Number of Pages: 20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=5 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=6 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=7 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=8 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=9 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=10 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=11 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=12 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=13 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=14 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=15 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=16 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=17 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=18 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=19 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=20 : Listings Found :8
+Post Code:3000 : price Range :&price=500000-550000 : Number of Pages: 21
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=5 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=6 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=7 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=8 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=9 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=10 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=11 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=12 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=13 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=14 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=15 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=16 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=17 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=18 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=19 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=20 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=21 : Listings Found :16
+Post Code:3000 : price Range :&price=550000-600000 : Number of Pages: 17
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=5 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=6 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=7 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=8 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=9 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=10 : Listings Found :20
+----------------------------------------------------------------------
+STEP 1 of 4 : URL SCRAPPING DOMAIN.COM.AU----  2018-03-19 12:22:28.967292
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 12:22:54.203763
+----------------------------------------------------------------------
+   Starting at Listing No:3000
+  Retriving Links...  : 639 Links Found
+----------------------------------------------------------------------------------------
+3000 :  Processing :https://www.domain.com.au/1706-250-elizabeth-street-melbourne-vic-3000-2011226795
+----------------------------------------------------------------------------------------
+3001 :  Processing :https://www.domain.com.au/609-442-st-kilda-road-melbourne-vic-3000-2011374912
+----------------------------------------------------------------------------------------
+3002 :  Processing :https://www.domain.com.au/1401-639-lonsdale-melbourne-vic-3000-2010910706
+----------------------------------------------------------------------------------------
+3003 :  Processing :https://www.domain.com.au/157-538-little-lonsdale-street-melbourne-vic-3000-2010832420
+----------------------------------------------------------------------------------------
+3004 :  Processing :https://www.domain.com.au/424-181-exhibition-street-melbourne-vic-3000-2009955370
+----------------------------------------------------------------------------------------
+3005 :  Processing :https://www.domain.com.au/203-68-la-trobe-street-melbourne-vic-3000-2009529376
+----------------------------------------------------------------------------------------
+3006 :  Processing :https://www.domain.com.au/1704-483-swanston-street-melbourne-vic-3000-2009240071
+----------------------------------------------------------------------------------------
+3007 :  Processing :https://www.domain.com.au/1707-68-la-trobe-street-melbourne-vic-3000-2008710943
+----------------------------------------------------------------------------------------
+3008 :  Processing :https://www.domain.com.au/94-538-little-lonsdale-street-melbourne-vic-3000-2008684190
+----------------------------------------------------------------------------------------
+3009 :  Processing :https://www.domain.com.au/805-118-russell-street-melbourne-vic-3000-2008413845
+----------------------------------------------------------------------------------------
+3010 :  Processing :https://www.domain.com.au/6-416a-st-kilda-road-melbourne-vic-3000-2008168801
+----------------------------------------------------------------------------------------
+3011 :  Processing :https://www.domain.com.au/1106-250-elizabeth-street-melbourne-vic-3000-2007003094
+----------------------------------------------------------------------------------------
+3012 :  Processing :https://www.domain.com.au/408-18-russell-place-melbourne-vic-3000-2013534857
+----------------------------------------------------------------------------------------
+3013 :  Processing :https://www.domain.com.au/1409-270-king-street-melbourne-vic-3000-2012399789
+----------------------------------------------------------------------------------------
+3014 :  Processing :https://www.domain.com.au/324-181-exhibition-street-melbourne-vic-3000-2012863379
+----------------------------------------------------------------------------------------
+3015 :  Processing :https://www.domain.com.au/322-181-exhibition-street-melbourne-vic-3000-2011697733
+----------------------------------------------------------------------------------------
+3016 :  Processing :https://www.domain.com.au/6-90-bourke-street-melbourne-vic-3000-2011836096
+----------------------------------------------------------------------------------------
+3017 :  Processing :https://www.domain.com.au/3306-31-a-beckett-street-melbourne-vic-3000-2010611595
+----------------------------------------------------------------------------------------
+3018 :  Processing :https://www.domain.com.au/33-mackenzie-street-melbourne-vic-3000-2010025500
+----------------------------------------------------------------------------------------
+3019 :  Processing :https://www.domain.com.au/6-10-bank-place-melbourne-vic-3000-2009966141
+----------------------------------------------------------------------------------------
+3020 :  Processing :https://www.domain.com.au/1704-68-latrobe-street-melbourne-vic-3000-2009239817
+----------------------------------------------------------------------------------------
+3021 :  Processing :https://www.domain.com.au/2106-8-exploration-lane-melbourne-vic-3000-2009080804
+----------------------------------------------------------------------------------------
+3022 :  Processing :https://www.domain.com.au/105-418-st-kilda-rd-melbourne-vic-3000-2008074241
+----------------------------------------------------------------------------------------
+3023 :  Processing :https://www.domain.com.au/1014-74-queens-road-melbourne-vic-3000-2014176144
+----------------------------------------------------------------------------------------
+3024 :  Processing :https://www.domain.com.au/408-480-st-kilda-road-melbourne-vic-3000-2013974395
+----------------------------------------------------------------------------------------
+3025 :  Processing :https://www.domain.com.au/1606-27-little-collins-street-melbourne-vic-3000-2013505018
+----------------------------------------------------------------------------------------
+3026 :  Processing :https://www.domain.com.au/207-576-578-st-kilda-road-melbourne-vic-3000-2013219862
+----------------------------------------------------------------------------------------
+3027 :  Processing :https://www.domain.com.au/31-243-collins-st-melbourne-vic-3000-2013085998
+----------------------------------------------------------------------------------------
+3028 :  Processing :https://www.domain.com.au/2214-22-24-jane-bell-lane-melbourne-vic-3000-2012846516
+----------------------------------------------------------------------------------------
+3029 :  Processing :https://www.domain.com.au/1903-620-collins-street-melbourne-vic-3000-2012791492
+----------------------------------------------------------------------------------------
+3030 :  Processing :https://www.domain.com.au/907-28-wills-street-melbourne-vic-3000-2012652137
+----------------------------------------------------------------------------------------
+3031 :  Processing :https://www.domain.com.au/1311-620-collins-street-melbourne-vic-3000-2012581602
+----------------------------------------------------------------------------------------
+3032 :  Processing :https://www.domain.com.au/715-555-flinders-street-melbourne-vic-3000-2012323694
+----------------------------------------------------------------------------------------
+3033 :  Processing :https://www.domain.com.au/809-8-sutherland-street-melbourne-vic-3000-2012303910
+----------------------------------------------------------------------------------------
+3034 :  Processing :https://www.domain.com.au/2201-200-spencer-street-melbourne-vic-3000-2012325457
+----------------------------------------------------------------------------------------
+3035 :  Processing :https://www.domain.com.au/211-55-queens-road-melbourne-vic-3000-2012290525
+----------------------------------------------------------------------------------------
+3036 :  Processing :https://www.domain.com.au/2801-8-downie-street-melbourne-vic-3000-2012063161
+----------------------------------------------------------------------------------------
+3037 :  Processing :https://www.domain.com.au/43-418-st-kilda-road-melbourne-vic-3000-2012041120
+----------------------------------------------------------------------------------------
+3038 :  Processing :https://www.domain.com.au/3603-483-swanston-street-melbourne-vic-3000-2011895244
+----------------------------------------------------------------------------------------
+3039 :  Processing :https://www.domain.com.au/1501-555-flinders-street-melbourne-vic-3000-2011993473
+----------------------------------------------------------------------------------------
+3040 :  Processing :https://www.domain.com.au/3009-200-spencer-street-melbourne-vic-3000-2011284544
+----------------------------------------------------------------------------------------
+3041 :  Processing :https://www.domain.com.au/11-140-flinders-street-melbourne-vic-3000-2011819380
+----------------------------------------------------------------------------------------
+3042 :  Processing :https://www.domain.com.au/103-9-degraves-street-melbourne-vic-3000-2011568581
+----------------------------------------------------------------------------------------
+3043 :  Processing :https://www.domain.com.au/103-9-degraves-street-melbourne-vic-3000-2011860490
+----------------------------------------------------------------------------------------
+3044 :  Processing :https://www.domain.com.au/g01-83-queens-road-melbourne-vic-3000-2011252804
+----------------------------------------------------------------------------------------
+3045 :  Processing :https://www.domain.com.au/1807-28-wills-st-melbourne-vic-3000-2011398937
+----------------------------------------------------------------------------------------
+3046 :  Processing :https://www.domain.com.au/1510-200-spencer-street-melbourne-vic-3000-2011538902
+----------------------------------------------------------------------------------------
+3047 :  Processing :https://www.domain.com.au/1201-610-st-kilda-road-melbourne-vic-3000-2011336755
+----------------------------------------------------------------------------------------
+3048 :  Processing :https://www.domain.com.au/1505-668-bourke-st-melbourne-vic-3000-2011370999
+----------------------------------------------------------------------------------------
+3049 :  Processing :https://www.domain.com.au/3802-200-spencer-street-melbourne-vic-3000-2011041166
+----------------------------------------------------------------------------------------
+3050 :  Processing :https://www.domain.com.au/1801-380-little-lonsdale-street-melbourne-vic-3000-2010390807
+----------------------------------------------------------------------------------------
+3051 :  Processing :https://www.domain.com.au/5a-601-little-collins-street-melbourne-vic-3000-2009875636
+----------------------------------------------------------------------------------------
+3052 :  Processing :https://www.domain.com.au/301-610-st-kilda-road-melbourne-vic-3000-2012301511
+----------------------------------------------------------------------------------------
+3053 :  Processing :https://www.domain.com.au/1108-442-st-kilda-rd-melbourne-vic-3000-2012096342
+----------------------------------------------------------------------------------------
+3054 :  Processing :https://www.domain.com.au/2801-380-lt-lonsdale-st-melbourne-vic-3000-2011675622
+----------------------------------------------------------------------------------------
+3055 :  Processing :https://www.domain.com.au/1009-668-bourke-street-melbourne-vic-3000-2010575926
+----------------------------------------------------------------------------------------
+3056 :  Processing :https://www.domain.com.au/814-199-william-street-melbourne-vic-3000-2013786389
+----------------------------------------------------------------------------------------
+3057 :  Processing :https://www.domain.com.au/1406-250-elizabeth-street-melbourne-vic-3000-2014138265
+----------------------------------------------------------------------------------------
+3058 :  Processing :https://www.domain.com.au/104-166-flinders-street-melbourne-vic-3000-2014114242
+----------------------------------------------------------------------------------------
+3059 :  Processing :https://www.domain.com.au/3609-280-little-lonsdale-street-melbourne-vic-3000-2013779839
+----------------------------------------------------------------------------------------
+3060 :  Processing :https://www.domain.com.au/164-538-little-lonsdale-street-melbourne-vic-3000-2009252700
+----------------------------------------------------------------------------------------
+3061 :  Processing :https://www.domain.com.au/1907-33-mackenzie-street-melbourne-vic-3000-2012724654
+----------------------------------------------------------------------------------------
+3062 :  Processing :https://www.domain.com.au/1210-118-russell-street-melbourne-vic-3000-2014015376
+----------------------------------------------------------------------------------------
+3063 :  Processing :https://www.domain.com.au/3601-288-spencer-street-melbourne-vic-3000-2014043661
+----------------------------------------------------------------------------------------
+3064 :  Processing :https://www.domain.com.au/3906-639-lonsdale-street-melbourne-vic-3000-2013834819
+----------------------------------------------------------------------------------------
+3065 :  Processing :https://www.domain.com.au/1707-568-collins-street-melbourne-vic-3000-2013862552
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 12:25:46.564394
+----------------------------------------------------------------------
+   Starting at Listing No:1
+  Retriving Links...  : 3638 Links Found
+----------------------------------------------------------------------------------------
+1 :  Processing :https://www.domain.com.au/car-park-no-2095-181-exhibition-street-melbourne-vic-3000-2013885249
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/401-31-a-beckett-street-melbourne-vic-3000-2011561130
+----------------------------------------------------------------------------------------
+3 :  Processing :https://www.domain.com.au/163-exhibition-street-melbourne-vic-3000-2008151265
+----------------------------------------------------------------------------------------
+4 :  Processing :https://www.domain.com.au/108-bourke-street-melbourne-vic-3000-2008207438
+----------------------------------------------------------------------------------------
+5 :  Processing :https://www.domain.com.au/suite-607-1-queens-road-melbourne-vic-3000-2011196134
+----------------------------------------------------------------------------------------
+6 :  Processing :https://www.domain.com.au/1105-81-queens-road-melbourne-vic-3000-2012264044
+----------------------------------------------------------------------------------------
+7 :  Processing :https://www.domain.com.au/h50-601-little-collins-street-melbourne-vic-3000-2011482446
+----------------------------------------------------------------------------------------
+8 :  Processing :https://www.domain.com.au/lot-5067y-639-lonsdale-st-melbourne-vic-3000-2011273883
+----------------------------------------------------------------------------------------
+9 :  Processing :https://www.domain.com.au/c59-22-24-jane-bell-lane-melbourne-vic-3000-2010376446
+----------------------------------------------------------------------------------------
+10 :  Processing :https://www.domain.com.au/2342-108-bourke-st-melbourne-vic-3000-2008141811
+----------------------------------------------------------------------------------------
+11 :  Processing :https://www.domain.com.au/507-58-franklin-street-melbourne-vic-3000-2011137235
+----------------------------------------------------------------------------------------
+12 :  Processing :https://www.domain.com.au/103-600-little-bourke-street-melbourne-vic-3000-2008288560
+----------------------------------------------------------------------------------------
+13 :  Processing :https://www.domain.com.au/163-exhibition-street-melbourne-vic-3000-2012513463
+----------------------------------------------------------------------------------------
+14 :  Processing :https://www.domain.com.au/163-exhibition-street-melbourne-vic-3000-2011599420
+----------------------------------------------------------------------------------------
+15 :  Processing :https://www.domain.com.au/668-bourke-street-melbourne-vic-3000-2010552043
+----------------------------------------------------------------------------------------
+16 :  Processing :https://www.domain.com.au/403-591-elizabeth-street-melbourne-vic-3000-2011410791
+----------------------------------------------------------------------------------------
+17 :  Processing :https://www.domain.com.au/201-600-little-bourke-street-melbourne-vic-3000-2013849835
+----------------------------------------------------------------------------------------
+18 :  Processing :https://www.domain.com.au/101-546-flinders-street-melbourne-vic-3000-2013720366
+----------------------------------------------------------------------------------------
+19 :  Processing :https://www.domain.com.au/58-546-flinders-street-melbourne-vic-3000-2013615014
+----------------------------------------------------------------------------------------
+20 :  Processing :https://www.domain.com.au/14-546-flinders-street-melbourne-vic-3000-2013101938
+----------------------------------------------------------------------------------------
+21 :  Processing :https://www.domain.com.au/707-600-little-bourke-street-melbourne-vic-3000-2012850113
+----------------------------------------------------------------------------------------
+22 :  Processing :https://www.domain.com.au/308-600-little-bourke-street-melbourne-vic-3000-2012795782
+----------------------------------------------------------------------------------------
+23 :  Processing :https://www.domain.com.au/808-600-little-bourke-street-melbourne-vic-3000-2012550552
+----------------------------------------------------------------------------------------
+24 :  Processing :https://www.domain.com.au/708b-268-flinders-street-melbourne-vic-3000-2012235915
+----------------------------------------------------------------------------------------
+25 :  Processing :https://www.domain.com.au/722-268-flinders-street-melbourne-vic-3000-2011696016
+----------------------------------------------------------------------------------------
+26 :  Processing :https://www.domain.com.au/906-600-little-bourke-street-melbourne-vic-3000-2011819530
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 12:28:26.384034
+----------------------------------------------------------------------
+   Starting at Listing No:1
+  Retriving Links...  : 3638 Links Found
+----------------------------------------------------------------------------------------
+1 :  Processing :https://www.domain.com.au/car-park-no-2095-181-exhibition-street-melbourne-vic-3000-2013885249
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/401-31-a-beckett-street-melbourne-vic-3000-2011561130
+----------------------------------------------------------------------
+STEP 1 of 4 : URL SCRAPPING DOMAIN.COM.AU----  2018-03-19 12:34:55.214992
+----------------------------------------------------------------------
+ Starting from POST CODE :3050
+Post Code:3050 : price Range :&price=50000-100000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=100000-150000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=150000-200000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=200000-250000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=250000-300000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=300000-350000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=350000-400000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=400000-450000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=450000-500000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=500000-550000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=550000-600000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=600000-650000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=650000-700000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=700000-750000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=750000-800000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=800000-850000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=850000-900000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=900000-950000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=950000-1000000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=1000000-1100000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=1100000-1200000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=1200000-1300000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=1300000-1400000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=1400000-1500000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=1500000-1600000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=1600000-1700000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=1700000-1800000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=1800000-1900000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=1900000-2000000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=2000000-2250000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=2250000-2500000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=2500000-2750000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=2750000-3000000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=3000000-4000000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=4000000-5000000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=5000000-6000000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=6000000-7000000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=7000000-8000000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=8000000-9000000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=9000000-10000000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=10000000-11000000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=11000000-12000000 : Number of Pages: 0
+Post Code:3050 : price Range :&price=12000000-13000000 : Number of Pages: 0
+Post Code:3051 : price Range :&price=50000-100000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=50000-100000&page=1 : Listings Found :1
+Post Code:3051 : price Range :&price=100000-150000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=100000-150000&page=1 : Listings Found :17
+Post Code:3051 : price Range :&price=150000-200000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=150000-200000&page=1 : Listings Found :18
+Post Code:3051 : price Range :&price=200000-250000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=200000-250000&page=1 : Listings Found :5
+Post Code:3051 : price Range :&price=250000-300000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=250000-300000&page=1 : Listings Found :13
+Post Code:3051 : price Range :&price=300000-350000 : Number of Pages: 3
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=300000-350000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=300000-350000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=300000-350000&page=3 : Listings Found :4
+Post Code:3051 : price Range :&price=350000-400000 : Number of Pages: 3
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=350000-400000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=350000-400000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=350000-400000&page=3 : Listings Found :13
+Post Code:3051 : price Range :&price=400000-450000 : Number of Pages: 6
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=400000-450000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=400000-450000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=400000-450000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=400000-450000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=400000-450000&page=5 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=400000-450000&page=6 : Listings Found :12
+Post Code:3051 : price Range :&price=450000-500000 : Number of Pages: 5
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=450000-500000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=450000-500000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=450000-500000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=450000-500000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=450000-500000&page=5 : Listings Found :17
+Post Code:3051 : price Range :&price=500000-550000 : Number of Pages: 5
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=500000-550000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=500000-550000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=500000-550000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=500000-550000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=500000-550000&page=5 : Listings Found :20
+Post Code:3051 : price Range :&price=550000-600000 : Number of Pages: 5
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=550000-600000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=550000-600000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=550000-600000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=550000-600000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=550000-600000&page=5 : Listings Found :8
+Post Code:3051 : price Range :&price=600000-650000 : Number of Pages: 4
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=600000-650000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=600000-650000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=600000-650000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=600000-650000&page=4 : Listings Found :20
+Post Code:3051 : price Range :&price=650000-700000 : Number of Pages: 4
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=650000-700000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=650000-700000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=650000-700000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=650000-700000&page=4 : Listings Found :8
+Post Code:3051 : price Range :&price=700000-750000 : Number of Pages: 3
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=700000-750000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=700000-750000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=700000-750000&page=3 : Listings Found :13
+Post Code:3051 : price Range :&price=750000-800000 : Number of Pages: 3
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=750000-800000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=750000-800000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=750000-800000&page=3 : Listings Found :13
+Post Code:3051 : price Range :&price=800000-850000 : Number of Pages: 3
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=800000-850000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=800000-850000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=800000-850000&page=3 : Listings Found :8
+Post Code:3051 : price Range :&price=850000-900000 : Number of Pages: 2
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=850000-900000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=850000-900000&page=2 : Listings Found :18
+Post Code:3051 : price Range :&price=900000-950000 : Number of Pages: 2
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=900000-950000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=900000-950000&page=2 : Listings Found :18
+Post Code:3051 : price Range :&price=950000-1000000 : Number of Pages: 2
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=950000-1000000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=950000-1000000&page=2 : Listings Found :12
+Post Code:3051 : price Range :&price=1000000-1100000 : Number of Pages: 2
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=1000000-1100000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=1000000-1100000&page=2 : Listings Found :14
+Post Code:3051 : price Range :&price=1100000-1200000 : Number of Pages: 2
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=1100000-1200000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=1100000-1200000&page=2 : Listings Found :10
+Post Code:3051 : price Range :&price=1200000-1300000 : Number of Pages: 2
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=1200000-1300000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=1200000-1300000&page=2 : Listings Found :11
+Post Code:3051 : price Range :&price=1300000-1400000 : Number of Pages: 2
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=1300000-1400000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=1300000-1400000&page=2 : Listings Found :13
+Post Code:3051 : price Range :&price=1400000-1500000 : Number of Pages: 2
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=1400000-1500000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=1400000-1500000&page=2 : Listings Found :6
+Post Code:3051 : price Range :&price=1500000-1600000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=1500000-1600000&page=1 : Listings Found :14
+Post Code:3051 : price Range :&price=1600000-1700000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=1600000-1700000&page=1 : Listings Found :12
+Post Code:3051 : price Range :&price=1700000-1800000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=1700000-1800000&page=1 : Listings Found :10
+Post Code:3051 : price Range :&price=1800000-1900000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=1800000-1900000&page=1 : Listings Found :14
+Post Code:3051 : price Range :&price=1900000-2000000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=1900000-2000000&page=1 : Listings Found :7
+Post Code:3051 : price Range :&price=2000000-2250000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=2000000-2250000&page=1 : Listings Found :6
+Post Code:3051 : price Range :&price=2250000-2500000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=2250000-2500000&page=1 : Listings Found :1
+Post Code:3051 : price Range :&price=2500000-2750000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=2500000-2750000&page=1 : Listings Found :5
+Post Code:3051 : price Range :&price=2750000-3000000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=2750000-3000000&page=1 : Listings Found :6
+Post Code:3051 : price Range :&price=3000000-4000000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=3000000-4000000&page=1 : Listings Found :2
+Post Code:3051 : price Range :&price=4000000-5000000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=4000000-5000000&page=1 : Listings Found :1
+Post Code:3051 : price Range :&price=5000000-6000000 : Number of Pages: 0
+Post Code:3051 : price Range :&price=6000000-7000000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=6000000-7000000&page=1 : Listings Found :2
+Post Code:3051 : price Range :&price=7000000-8000000 : Number of Pages: 0
+Post Code:3051 : price Range :&price=8000000-9000000 : Number of Pages: 0
+Post Code:3051 : price Range :&price=9000000-10000000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3051&price=9000000-10000000&page=1 : Listings Found :1
+Post Code:3051 : price Range :&price=10000000-11000000 : Number of Pages: 0
+Post Code:3051 : price Range :&price=11000000-12000000 : Number of Pages: 0
+Post Code:3051 : price Range :&price=12000000-13000000 : Number of Pages: 0
+Post Code:3052 : price Range :&price=50000-100000 : Number of Pages: 0
+Post Code:3052 : price Range :&price=100000-150000 : Number of Pages: 0
+Post Code:3052 : price Range :&price=150000-200000 : Number of Pages: 0
+Post Code:3052 : price Range :&price=200000-250000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3052&price=200000-250000&page=1 : Listings Found :3
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 12:37:56.403262
+----------------------------------------------------------------------
+   Starting at Listing No:1
+  Retriving Links...  : 1196 Links Found
+----------------------------------------------------------------------------------------
+1 :  Processing :https://www.domain.com.au/27-1-o-connell-st-north-melbourne-vic-3051-2011940627
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------------------------
+3 :  Processing :https://www.domain.com.au/201-6-8-high-street-north-melbourne-vic-3051-2013238532
+----------------------------------------------------------------------------------------
+4 :  Processing :https://www.domain.com.au/120-3-11-high-street-north-melbourne-vic-3051-2012976811
+----------------------------------------------------------------------------------------
+5 :  Processing :https://www.domain.com.au/518-9-high-street-north-melbourne-vic-3051-2011687365
+----------------------------------------------------------------------------------------
+6 :  Processing :https://www.domain.com.au/116-9-high-street-north-melbourne-vic-3051-2012190170
+----------------------------------------------------------------------------------------
+7 :  Processing :https://www.domain.com.au/209-6-8-high-street-north-melbourne-vic-3051-2010931382
+----------------------------------------------------------------------------------------
+8 :  Processing :https://www.domain.com.au/609-6-8-high-street-north-melbourne-vic-3051-2010295252
+----------------------------------------------------------------------------------------
+9 :  Processing :https://www.domain.com.au/207-6-high-street-north-melbourne-vic-3051-2011621660
+----------------------------------------------------------------------------------------
+10 :  Processing :https://www.domain.com.au/105-188-peel-street-north-melbourne-vic-3051-2011261717
+----------------------------------------------------------------------------------------
+11 :  Processing :https://www.domain.com.au/306-6-high-street-north-melbourne-vic-3051-2010600038
+----------------------------------------------------------------------------------------
+12 :  Processing :https://www.domain.com.au/421-3-11-high-street-north-melbourne-vic-3051-2010559858
+----------------------------------------------------------------------------------------
+13 :  Processing :https://www.domain.com.au/6-3-11-high-street-north-melbourne-vic-3051-2009935974
+----------------------------------------------------------------------------------------
+14 :  Processing :https://www.domain.com.au/312-188-peel-street-north-melbourne-vic-3051-2009935911
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 12:38:49.429259
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 12:39:16.435142
+----------------------------------------------------------------------
+   Starting at Listing No:1
+  Retriving Links...  : 1196 Links Found
+----------------------------------------------------------------------------------------
+1 :  Processing :https://www.domain.com.au/27-1-o-connell-st-north-melbourne-vic-3051-2011940627
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 12:41:53.582058
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 12:56:01.661423
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 12:58:39.023878
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 13:00:54.487099
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 13:03:56.291551
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 13:04:41.383459
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 18:39:56.675229
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 18:40:46.909551
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 18:41:18.368184
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 18:42:50.063552
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 18:47:04.683633
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 18:47:55.367099
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 18:50:02.255464
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 18:51:37.890776
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 18:52:35.099873
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 18:53:03.325981
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 19:03:04.542564
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 19:10:20.474823
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 19:11:12.713315
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 19:18:10.846444
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------------------------
+3 :  Processing :https://www.domain.com.au/201-6-8-high-street-north-melbourne-vic-3051-2013238532
+
+   *** WARNING: in PRice Estmator  URL :https://www.realestateview.com.au/property-360/property/201-6-8-High-Street-north-melbourne-vic-3051/
+----------------------------------------------------------------------------------------
+4 :  Processing :https://www.domain.com.au/120-3-11-high-street-north-melbourne-vic-3051-2012976811
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 19:25:17.623526
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 19:25:33.380425
+----------------------------------------------------------------------
+   Starting at Listing No:10
+  Retriving Links...  : 1187 Links Found
+----------------------------------------------------------------------------------------
+10 :  Processing :https://www.domain.com.au/105-188-peel-street-north-melbourne-vic-3051-2011261717
+----------------------------------------------------------------------------------------
+11 :  Processing :https://www.domain.com.au/306-6-high-street-north-melbourne-vic-3051-2010600038
+----------------------------------------------------------------------------------------
+12 :  Processing :https://www.domain.com.au/421-3-11-high-street-north-melbourne-vic-3051-2010559858
+
+   *** WARNING: in property sold year below 2013 Skipping count:13URL:https://www.domain.com.au/421-3-11-high-street-north-melbourne-vic-3051-2010559858
+----------------------------------------------------------------------------------------
+13 :  Processing :https://www.domain.com.au/6-3-11-high-street-north-melbourne-vic-3051-2009935974
+
+   *** WARNING: in property sold year below 2013 Skipping count:14URL:https://www.domain.com.au/6-3-11-high-street-north-melbourne-vic-3051-2009935974
+----------------------------------------------------------------------------------------
+14 :  Processing :https://www.domain.com.au/312-188-peel-street-north-melbourne-vic-3051-2009935911
+
+   *** WARNING: in property sold year below 2013 Skipping count:15URL:https://www.domain.com.au/312-188-peel-street-north-melbourne-vic-3051-2009935911
+----------------------------------------------------------------------------------------
+15 :  Processing :https://www.domain.com.au/527-55-villiers-street-north-melbourne-vic-3051-2013377940
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 19:26:36.427080
+----------------------------------------------------------------------
+   Starting at Listing No:10
+  Retriving Links...  : 1187 Links Found
+----------------------------------------------------------------------------------------
+10 :  Processing :https://www.domain.com.au/105-188-peel-street-north-melbourne-vic-3051-2011261717
+----------------------------------------------------------------------------------------
+11 :  Processing :https://www.domain.com.au/306-6-high-street-north-melbourne-vic-3051-2010600038
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 19:34:07.913973
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------------------------
+3 :  Processing :https://www.domain.com.au/201-6-8-high-street-north-melbourne-vic-3051-2013238532
+
+   *** WARNING: in PRice Estmator  URL :https://www.realestateview.com.au/property-360/property/201-6-8-High-Street-north-melbourne-vic-3051/
+----------------------------------------------------------------------------------------
+4 :  Processing :https://www.domain.com.au/120-3-11-high-street-north-melbourne-vic-3051-2012976811
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 19:35:51.512522
+----------------------------------------------------------------------
+   Starting at Listing No:3
+  Retriving Links...  : 1194 Links Found
+----------------------------------------------------------------------------------------
+3 :  Processing :https://www.domain.com.au/201-6-8-high-street-north-melbourne-vic-3051-2013238532
+
+   *** WARNING: in PRice Estmator  URL :https://www.realestateview.com.au/property-360/property/201-6-8-High-Street-north-melbourne-vic-3051/
+----------------------------------------------------------------------------------------
+4 :  Processing :https://www.domain.com.au/120-3-11-high-street-north-melbourne-vic-3051-2012976811
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 19:40:50.115197
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------------------------
+3 :  Processing :https://www.domain.com.au/201-6-8-high-street-north-melbourne-vic-3051-2013238532
+
+   *** WARNING: in PRice Estmator  URL :https://www.realestateview.com.au/property-360/property/201-6-8-High-Street-north-melbourne-vic-3051/
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 19:42:53.676769
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------------------------
+3 :  Processing :https://www.domain.com.au/201-6-8-high-street-north-melbourne-vic-3051-2013238532
+
+   *** WARNING: in PRice Estmator  URL :https://www.realestateview.com.au/property-360/property/201-6-8-High-Street-north-melbourne-vic-3051/
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 19:45:21.177000
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------------------------
+3 :  Processing :https://www.domain.com.au/201-6-8-high-street-north-melbourne-vic-3051-2013238532
+
+   *** WARNING: in PRice Estmator  URL :https://www.realestateview.com.au/property-360/property/201-6-8-High-Street-north-melbourne-vic-3051/
+----------------------------------------------------------------------------------------
+4 :  Processing :https://www.domain.com.au/120-3-11-high-street-north-melbourne-vic-3051-2012976811
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 19:46:57.160269
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------------------------
+3 :  Processing :https://www.domain.com.au/201-6-8-high-street-north-melbourne-vic-3051-2013238532
+
+   *** WARNING: in PRice Estmator  URL :https://www.realestateview.com.au/property-360/property/201-6-8-High-Street-north-melbourne-vic-3051/
+----------------------------------------------------------------------------------------
+4 :  Processing :https://www.domain.com.au/120-3-11-high-street-north-melbourne-vic-3051-2012976811
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 19:49:56.803941
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------------------------
+3 :  Processing :https://www.domain.com.au/201-6-8-high-street-north-melbourne-vic-3051-2013238532
+
+   *** WARNING: in PRice Estmator  URL :https://www.realestateview.com.au/property-360/property/201-6-8-High-Street-north-melbourne-vic-3051/
+----------------------------------------------------------------------------------------
+4 :  Processing :https://www.domain.com.au/120-3-11-high-street-north-melbourne-vic-3051-2012976811
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 19:51:01.604255
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------------------------
+3 :  Processing :https://www.domain.com.au/201-6-8-high-street-north-melbourne-vic-3051-2013238532
+
+   *** WARNING: in PRice Estmator  URL :https://www.realestateview.com.au/property-360/property/201-6-8-High-Street-north-melbourne-vic-3051/
+----------------------------------------------------------------------------------------
+4 :  Processing :https://www.domain.com.au/120-3-11-high-street-north-melbourne-vic-3051-2012976811
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 19:51:54.306409
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------------------------
+3 :  Processing :https://www.domain.com.au/201-6-8-high-street-north-melbourne-vic-3051-2013238532
+
+   *** WARNING: in PRice Estmator  URL :https://www.realestateview.com.au/property-360/property/201-6-8-High-Street-north-melbourne-vic-3051/
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 19:55:00.059151
+----------------------------------------------------------------------
+   Starting at Listing No:4
+  Retriving Links...  : 1193 Links Found
+----------------------------------------------------------------------------------------
+4 :  Processing :https://www.domain.com.au/120-3-11-high-street-north-melbourne-vic-3051-2012976811
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 19:55:28.218030
+----------------------------------------------------------------------
+   Starting at Listing No:4
+  Retriving Links...  : 1193 Links Found
+----------------------------------------------------------------------------------------
+4 :  Processing :https://www.domain.com.au/120-3-11-high-street-north-melbourne-vic-3051-2012976811
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 19:56:35.121940
+----------------------------------------------------------------------
+   Starting at Listing No:4
+  Retriving Links...  : 1193 Links Found
+----------------------------------------------------------------------------------------
+4 :  Processing :https://www.domain.com.au/120-3-11-high-street-north-melbourne-vic-3051-2012976811
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 19:58:05.572465
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 19:58:57.248784
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------------------------
+3 :  Processing :https://www.domain.com.au/201-6-8-high-street-north-melbourne-vic-3051-2013238532
+
+   *** WARNING: in PRice Estmator  URL :https://www.realestateview.com.au/property-360/property/201-6-8-High-Street-north-melbourne-vic-3051/
+----------------------------------------------------------------------------------------
+4 :  Processing :https://www.domain.com.au/120-3-11-high-street-north-melbourne-vic-3051-2012976811
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 20:02:04.560880
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------------------------
+3 :  Processing :https://www.domain.com.au/201-6-8-high-street-north-melbourne-vic-3051-2013238532
+
+   *** WARNING: in PRice Estmator  URL :https://www.realestateview.com.au/property-360/property/201-6-8-High-Street-north-melbourne-vic-3051/
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 20:04:19.955920
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 20:06:55.869652
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------------------------
+3 :  Processing :https://www.domain.com.au/201-6-8-high-street-north-melbourne-vic-3051-2013238532
+
+   *** WARNING: in PRice Estmator  URL :https://www.realestateview.com.au/property-360/property/201-6-8-High-Street-north-melbourne-vic-3051/
+----------------------------------------------------------------------------------------
+4 :  Processing :https://www.domain.com.au/120-3-11-high-street-north-melbourne-vic-3051-2012976811
+
+   *** WARNING: in property sold year below 2013 Skipping count:5URL:https://www.domain.com.au/120-3-11-high-street-north-melbourne-vic-3051-2012976811
+----------------------------------------------------------------------------------------
+5 :  Processing :https://www.domain.com.au/518-9-high-street-north-melbourne-vic-3051-2011687365
+----------------------------------------------------------------------------------------
+6 :  Processing :https://www.domain.com.au/116-9-high-street-north-melbourne-vic-3051-2012190170
+----------------------------------------------------------------------------------------
+7 :  Processing :https://www.domain.com.au/209-6-8-high-street-north-melbourne-vic-3051-2010931382
+
+   *** WARNING: in PRice Estmator  URL :https://www.realestateview.com.au/property-360/property/209-6-8-High-Street-north-melbourne-vic-3051/
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-19 20:08:09.307054
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-20 11:51:22.133610
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------------------------
+3 :  Processing :https://www.domain.com.au/201-6-8-high-street-north-melbourne-vic-3051-2013238532
+
+   *** WARNING: in PRice Estmator  URL :https://www.realestateview.com.au/property-360/property/201-6-8-High-Street-north-melbourne-vic-3051/
+----------------------------------------------------------------------------------------
+4 :  Processing :https://www.domain.com.au/120-3-11-high-street-north-melbourne-vic-3051-2012976811
+
+   *** WARNING: in property sold year below 2013 Skipping count:5URL:https://www.domain.com.au/120-3-11-high-street-north-melbourne-vic-3051-2012976811
+----------------------------------------------------------------------------------------
+5 :  Processing :https://www.domain.com.au/518-9-high-street-north-melbourne-vic-3051-2011687365
+----------------------------------------------------------------------------------------
+6 :  Processing :https://www.domain.com.au/116-9-high-street-north-melbourne-vic-3051-2012190170
+----------------------------------------------------------------------------------------
+7 :  Processing :https://www.domain.com.au/209-6-8-high-street-north-melbourne-vic-3051-2010931382
+
+   *** WARNING: in PRice Estmator  URL :https://www.realestateview.com.au/property-360/property/209-6-8-High-Street-north-melbourne-vic-3051/
+----------------------------------------------------------------------------------------
+8 :  Processing :https://www.domain.com.au/609-6-8-high-street-north-melbourne-vic-3051-2010295252
+
+   *** WARNING: in property sold year below 2013 Skipping count:9URL:https://www.domain.com.au/609-6-8-high-street-north-melbourne-vic-3051-2010295252
+----------------------------------------------------------------------------------------
+9 :  Processing :https://www.domain.com.au/207-6-high-street-north-melbourne-vic-3051-2011621660
+
+   *** WARNING: in property sold year below 2013 Skipping count:10URL:https://www.domain.com.au/207-6-high-street-north-melbourne-vic-3051-2011621660
+----------------------------------------------------------------------------------------
+10 :  Processing :https://www.domain.com.au/105-188-peel-street-north-melbourne-vic-3051-2011261717
+----------------------------------------------------------------------------------------
+11 :  Processing :https://www.domain.com.au/306-6-high-street-north-melbourne-vic-3051-2010600038
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-20 11:54:03.920575
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-20 11:55:26.622460
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-20 11:57:08.703954
+----------------------------------------------------------------------
+   Starting at Listing No:2
+  Retriving Links...  : 1195 Links Found
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-20 13:39:19.866949
+----------------------------------------------------------------------
+   Starting at Listing No:1
+  Retriving Links...  : 1196 Links Found
+----------------------------------------------------------------------------------------
+1 :  Processing :https://www.domain.com.au/27-1-o-connell-st-north-melbourne-vic-3051-2011940627
+
+   *** WARNING: in PRice Estmator  URL :https://www.realestateview.com.au/property-360/property/27-1-O’Connell-St-north-melbourne-vic-3051/
