@@ -514,6 +514,7 @@ for link in links:
                 data[18]=rented.text.replace("%","") #18 % singles
     # NEAREST SCHOOL
     
+    
     nearestschool=soup.select('span[class*="school-catchment__school-distance"]')
     if nearestschool is not None and len(nearestschool)>0:
         data[41]=nearestschool[0].text.replace("km","")
