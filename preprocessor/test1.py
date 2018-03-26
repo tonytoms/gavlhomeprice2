@@ -1,12 +1,22 @@
+from datetime import datetime
+from datetime import date
 
-dataFiles= open('../webscraper/files/data_domains.csv','r',encoding="utf8")
 
-pre=""
-mylist=[]
-for dataFile in dataFiles:
-    data=dataFile.split(",")
-    if data[7] not in mylist:
-        mylist.append(data[7])
-        
-for my in mylist:
-    print(my)
+import holidays
+import calendar
+
+datetime_object = datetime.strptime('25/03/2018', '%d/%m/%Y')
+
+
+day=(calendar.day_name[datetime_object.weekday()])
+timeofWeek=''
+if(day=="Sunday" or day=="Saturday"):
+    timeofWeek="WeekEnd"
+else:
+    timeofWeek="WeekDay" 
+ 
+
+aus_holidays = holidays.AU(prov = 'VIC')  # or holidays.US(), or holidays.CountryHoliday('US')
+
+if date(2018, 4, 2) in aus_holidays:
+    print('yes')

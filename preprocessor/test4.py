@@ -1,23 +1,39 @@
-# -*- coding: utf-8 -*-
-import dataiku
-import pandas as pd, numpy as np
-from dataiku import pandasutils as pdu
+import urllib.request
+import bs4 as bs 
+import datetime
+from selenium import webdriver
+import webscraper.logger as logger
+from datetime import datetime
+import re as re
+import pandas as pd
+import requests
+from xml.etree import ElementTree
+import traceback
+from multiprocessing.pool import ThreadPool
+from numpy.core.defchararray import rsplit
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+import csv
 
-# Recipe inputs
-input = dataiku.Dataset("input_dataset")
-input_df = input.get_dataframe()
 
-# Convert to json
-input_json = input_df.to_json()
+#dataFile= open('../data/data_domains4.csv','a',encoding="utf8")
 
-# Convert json to a one row, one column data frame
-input_json_df = pd.DataFrame(data=[input_json], columns=['json'])
+count=-1
+items=['','']
+with open('../data/data_domains4.csv', newline='') as myFile:  
+   
+        reader = csv.reader(myFile)
+        for row in reader:
+            count=count+1
+            #print(row[7])
+            if row[44] in items:
+                temp=0
+            else:
+                items.append(row[44]) 
+                
+for item in items:
+    print(item)
 
-# Write new data frame back to Dataiku dataset
-output = dataiku.Dataset("output_dataset")
-output.write_with_schema(input_json_df)
-
-# Write json to external file
-f = open('output_file', 'w')
-f.write(input_json)
-f.close()
+            

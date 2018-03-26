@@ -15,6 +15,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
+import csv
 
 
 def distance_google_api_wrapper(distance_matrix_list,addresss,keys):
@@ -97,7 +98,6 @@ def distance_google_api(no,url,distance_matrix_list,strkey,address):
     return True
  
 
-import csv
 
 start = input("Enter starting index: ")
 dataFile= open('../data/data_domains2.csv','a',encoding="utf8")
