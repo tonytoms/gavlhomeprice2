@@ -380,8 +380,10 @@ for dataFile in dataFiles:
  
  
  
-    data[42]=data1[42]  # LandArea
-    data[43]=data1[43]  # Frontage
+    landarea=data1[42].split(" ")
+    data[42]=landarea[0] # LandArea
+    frontage=data1[43].split(" ")
+    data[43]=frontage[0]  # Frontage
     data[44]=slop(data1[44])  # Slop
 
    
