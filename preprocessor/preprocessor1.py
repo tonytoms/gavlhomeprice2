@@ -48,9 +48,9 @@ def yesno(inputVal):
     if inputVal=="" or inputVal is None:
         return ""
     if inputVal.lower()=="no":
-        return "0"
+        return "N"
     if inputVal.lower()=="yes":
-        return "1"
+        return "Y"
     else:
         return str(inputVal)
     
@@ -241,7 +241,7 @@ for dataFile in dataFiles:
 #  ID, STREET NAME, UNIT NUMBER,STREET NUMBER    
     data[0]=data1[0] 
     streets=data1[2].split(" ",1) 
-    data[1]= streets[1]  
+    data[1]= streets[1]
     unitNum=""
     streetNum=""
     if "/" in streets[0]:
@@ -252,8 +252,16 @@ for dataFile in dataFiles:
         unitNum=""
         streetNum=re.findall('\d+', streets[0] )
         
-    data[2]=''.join(unitNum)
+    data[2]=''.join( unitNum)
+    if data[2]=="" :
+            placeholder=""
+    else:
+        data[2]=int(data[2]) % 10
     data[3]=''.join(streetNum ) 
+    if data[3]=="" :
+        placeholder=""
+    else:
+        data[3]=int(data[3]) % 10
     
     
     data[4]=data1[3]   # SUBURB NAME
@@ -316,8 +324,8 @@ for dataFile in dataFiles:
     data[21]=yesno(data1[21])  # Cooling
    
     
-    data[22]=yesno(data1[24])  # AvgDaysOnMarketSuburb
-    data[23]=yesno(data1[41])  # PropertySoldInSuburb
+    data[22]=(data1[24])  # AvgDaysOnMarketSuburb
+    data[23]=(data1[41])  # PropertySoldInSuburb
    
     data[24]=data1[25]  # LandSize
 

@@ -251,8 +251,16 @@ def train_and_test_Kfold(train,test,features,target='Price'): # add Kfold
 
 num_features = None # Choose how many features you want to use. None = all
 
-train = pd.read_csv("../data/train.csv") # read train data
-test = pd.read_csv("../data/test.csv") # read test data
+#train = pd.read_csv("input/train.csv") # read train data
+#test = pd.read_csv("input/test.csv") # read test data
+
+df = pd.read_csv('../data/data_domains5.csv')
+df['split'] = np.random.randn(df.shape[0], 1)
+
+msk = np.random.rand(len(df)) <= 0.7
+
+train = df[msk]
+test = df[~msk]
 
 train,test,features = process_features(train,test)
 
