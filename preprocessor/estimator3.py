@@ -59,7 +59,7 @@ mat_train = np.matrix(train)
 mat_test  = np.matrix(test)
 mat_new = np.matrix(train.drop('Price',axis = 1))
 mat_y = np.array(train.Price).reshape((train.shape[0],1))
-mat_new = np.array(test.SoldDate).reshape((test.shape[0],1))
+mat_new = np.array(test.MSSubClass).reshape((test.shape[0],1))
 
 prepro_y = MinMaxScaler()
 prepro_y.fit(mat_y)
@@ -104,13 +104,7 @@ testing_set.head()
 
 
 
-# Model
-tf.logging.set_verbosity(tf.logging.ERROR)
-#regressor = tf.contrib.learn.DNNRegressor(feature_columns=feature_cols, 
-#                                          activation_fn = tf.nn.relu, hidden_units=[200, 100, 50, 25, 12])#,
-                                         #optimizer = tf.train.GradientDescentOptimizer( learning_rate= 0.1 ))
-                                         
-# Reset the index of training
+
 training_set.reset_index(drop = True, inplace =True)
 
 
@@ -127,23 +121,6 @@ def input_fn(data_set, pred = False):
         feature_cols = {k: tf.constant(data_set[k].values) for k in FEATURES}
         
         return feature_cols
-    
-# Deep Neural Network Regressor with the training set which contain the data split by train test split
-#regressor.fit(input_fn=lambda: input_fn(training_set), steps=2000)
-
-# Evaluation on the test set created by train_test_split
-#ev = regressor.evaluate(input_fn=lambda: input_fn(testing_set), steps=1)
-
-# Display the score on the testing set
-# 0.002X in average
-#loss_score1 = ev["loss"]
-#print("Final Loss on the testing set: {0:f}".format(loss_score1))
-
-# Predictions
-#y = regressor.predict(input_fn=lambda: input_fn(testing_set))
-#predictions = list(itertools.islice(y, testing_set.shape[0]))
-
-#predictions = pd.DataFrame((np.array(predictions).reshape(test.shape[0],1)),columns = ['Prediction'])
 
 reality = pd.DataFrame((testing_set), columns = [COLUMNS]).Price
 
@@ -171,46 +148,6 @@ def to_submit(pred_y,name_out):
 #to_submit(y_predict, "submission_continuous")
 
 
-def leaky_relu(x):
-    return tf.nn.relu(x) - 0.01 * tf.nn.relu(-x)
-
-# Model
-#regressor = tf.contrib.learn.DNNRegressor(feature_columns=feature_cols, 
-#                                          activation_fn = leaky_relu, hidden_units=[200, 100, 50, 25, 12])
-    
-# Deep Neural Network Regressor with the training set which contain the data split by train test split
-#regressor.fit(input_fn=lambda: input_fn(training_set), steps=2000)
-
-# Evaluation on the test set created by train_test_split
-#ev = regressor.evaluate(input_fn=lambda: input_fn(testing_set), steps=1)
-
-# Display the score on the testing set
-# 0.002X in average
-#loss_score2 = ev["loss"]
-#print("Final Loss on the testing set with Leaky Relu: {0:f}".format(loss_score2))
-
-# Predictions
-#y_predict = regressor.predict(input_fn=lambda: input_fn(test, pred = True))
-#to_submit(y_predict, "Leaky_relu")
-
-
-# Model
-#regressor = tf.contrib.learn.DNNRegressor(feature_columns=feature_cols, 
-#                                          activation_fn = tf.nn.elu, hidden_units=[200, 100, 50, 25, 12])
-    
-# Deep Neural Network Regressor with the training set which contain the data split by train test split
-#regressor.fit(input_fn=lambda: input_fn(training_set), steps=2000)
-
-# Evaluation on the test set created by train_test_split
-#ev = regressor.evaluate(input_fn=lambda: input_fn(testing_set), steps=1)
-
-#loss_score3 = ev["loss"]
-
-#print("Final Loss on the testing set with Elu: {0:f}".format(loss_score3))
-
-# Predictions
-#y_predict = regressor.predict(input_fn=lambda: input_fn(test, pred = True))
-#to_submit(y_predict, "Elu")
 
 
 ##################################################################################
@@ -273,10 +210,10 @@ prepro.fit(mat_train)
 prepro_test = MinMaxScaler()
 prepro_test.fit(mat_new)
 
-train_num_scale = pd.DataFrame((mat_train),columns = col_train)
-test_num_scale  = pd.DataFrame((mat_test),columns = col_train_bis)
+train_num_scale = pd.DataFrame(prepro.transform(mat_train),columns = col_train)
+test_num_scale  = pd.DataFrame(prepro_test.transform(mat_test),columns = col_train_bis)
 
-train[col_train_num] = pd.DataFrame((mat_train),columns = col_train_num)
+train[col_train_num] = pd.DataFrame(prepro.transform(mat_train),columns = col_train_num)
 test[col_train_num_bis]  = test_num_scale
 
 # List of features
@@ -355,7 +292,7 @@ print("Final Loss on the testing set: {0:f}".format(loss_score4))
 # Predictions
 y = regressor.predict(input_fn=lambda: input_fn_new(testing_set))
 predictions = list(itertools.islice(y, testing_set.shape[0]))
-predictions = pd.DataFrame((np.array(predictions).reshape(642,1)))
+predictions = pd.DataFrame(prepro_y.inverse_transform(np.array(predictions).reshape(318,1)))
 
 matplotlib.rc('xtick', labelsize=30) 
 matplotlib.rc('ytick', labelsize=30) 

@@ -1,8 +1,8 @@
 
 
 dataFiles= open('../data/data_domains5.csv','r',encoding="utf8")
-dataFilesTr= open('../data/train.csv','w',encoding="utf8")
-dataFilesTs= open('../data/test.csv','w',encoding="utf8")
+dataFilesTr= open('../data/trainUnf.csv','w',encoding="utf8")
+dataFilesTs= open('../data/testUnf.csv','w',encoding="utf8")
 
 count=-1
 

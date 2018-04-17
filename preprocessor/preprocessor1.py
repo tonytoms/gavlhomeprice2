@@ -214,13 +214,14 @@ dataHeader[44]="Slop"
 dataHeader[45]="ExternalPricePrediction"
 dataHeader[46]="SimilarPropertyPrice1"
 dataHeader[47]="SimilarPropertyPrice2"
-dataHeader[48]="Price"
+dataHeader[48]="SalePrice"
 
 
 for n in range(0,len(dataHeader)):
 
     dataFiles2.write(dataHeader[n])
-    dataFiles2.write(",")
+    if n<(len(dataHeader)-1):
+        dataFiles2.write(",")
 
 
 dataFiles2.write("\n")
@@ -408,7 +409,8 @@ for dataFile in dataFiles:
         if data[n] is None or data[n]=="":
             data[n]="NA"
         dataFiles2.write(str(data[n]))
-        dataFiles2.write(",")
+        if n<(len(data)-1):
+            dataFiles2.write(",")
     dataFiles2.write("\n")
    
     dataFiles2.flush()

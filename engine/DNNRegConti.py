@@ -196,4 +196,4 @@ def to_submit(pred_y,name_out):
     y_predict = y_predict.join(ID)
     y_predict.to_csv(name_out + '.csv',index=False)
     
-to_submit(y_predict, "submission_continuous")
+to_submit(y_predict, "DNNRegConti")
