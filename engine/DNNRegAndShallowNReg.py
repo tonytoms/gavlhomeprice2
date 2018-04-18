@@ -104,15 +104,6 @@ testing_set.head()
 
 
 
-# Model
-tf.logging.set_verbosity(tf.logging.ERROR)
-#regressor = tf.contrib.learn.DNNRegressor(feature_columns=feature_cols, 
-#                                          activation_fn = tf.nn.relu, hidden_units=[200, 100, 50, 25, 12])#,
-                                         #optimizer = tf.train.GradientDescentOptimizer( learning_rate= 0.1 ))
-                                         
-# Reset the index of training
-training_set.reset_index(drop = True, inplace =True)
-
 
 def input_fn(data_set, pred = False):
     
@@ -129,89 +120,18 @@ def input_fn(data_set, pred = False):
         return feature_cols
     
 # Deep Neural Network Regressor with the training set which contain the data split by train test split
-#regressor.fit(input_fn=lambda: input_fn(training_set), steps=2000)
-
-# Evaluation on the test set created by train_test_split
-#ev = regressor.evaluate(input_fn=lambda: input_fn(testing_set), steps=1)
-
-# Display the score on the testing set
-# 0.002X in average
-#loss_score1 = ev["loss"]
-#print("Final Loss on the testing set: {0:f}".format(loss_score1))
-
-# Predictions
-#y = regressor.predict(input_fn=lambda: input_fn(testing_set))
-#predictions = list(itertools.islice(y, testing_set.shape[0]))
-
-#predictions = pd.DataFrame((np.array(predictions).reshape(test.shape[0],1)),columns = ['Prediction'])
 
 reality = pd.DataFrame((testing_set), columns = [COLUMNS]).SalePrice
 
-matplotlib.rc('xtick', labelsize=30) 
-matplotlib.rc('ytick', labelsize=30) 
 
-fig, ax = plt.subplots(figsize=(50, 40))
 
-plt.style.use('ggplot')
-#plt.plot(predictions.values, reality.values, 'ro')
-plt.xlabel('Predictions', fontsize = 30)
-plt.ylabel('Reality', fontsize = 30)
-plt.title('Predictions x Reality on dataset Test', fontsize = 30)
-ax.plot([reality.min(), reality.max()], [reality.min(), reality.max()], 'k--', lw=4)
-plt.show()
-
-#y_predict = regressor.predict(input_fn=lambda: input_fn(test, pred = True))
 
 def to_submit(pred_y,name_out):
     y_predict = list(itertools.islice(pred_y, test.shape[0]))
-    y_predict = pd.DataFrame((np.array(y_predict).reshape(len(y_predict),1)), columns = ['Idss'])
+    y_predict = pd.DataFrame(prepro_y.inverse_transform(np.array(y_predict).reshape(len(y_predict),1)), columns = ['SalePrice'])
     y_predict = y_predict.join(ID)
     y_predict.to_csv(name_out + '.csv',index=False)
     
-#to_submit(y_predict, "submission_continuous")
-
-
-def leaky_relu(x):
-    return tf.nn.relu(x) - 0.01 * tf.nn.relu(-x)
-
-# Model
-#regressor = tf.contrib.learn.DNNRegressor(feature_columns=feature_cols, 
-#                                          activation_fn = leaky_relu, hidden_units=[200, 100, 50, 25, 12])
-    
-# Deep Neural Network Regressor with the training set which contain the data split by train test split
-#regressor.fit(input_fn=lambda: input_fn(training_set), steps=2000)
-
-# Evaluation on the test set created by train_test_split
-#ev = regressor.evaluate(input_fn=lambda: input_fn(testing_set), steps=1)
-
-# Display the score on the testing set
-# 0.002X in average
-#loss_score2 = ev["loss"]
-#print("Final Loss on the testing set with Leaky Relu: {0:f}".format(loss_score2))
-
-# Predictions
-#y_predict = regressor.predict(input_fn=lambda: input_fn(test, pred = True))
-#to_submit(y_predict, "Leaky_relu")
-
-
-# Model
-#regressor = tf.contrib.learn.DNNRegressor(feature_columns=feature_cols, 
-#                                          activation_fn = tf.nn.elu, hidden_units=[200, 100, 50, 25, 12])
-    
-# Deep Neural Network Regressor with the training set which contain the data split by train test split
-#regressor.fit(input_fn=lambda: input_fn(training_set), steps=2000)
-
-# Evaluation on the test set created by train_test_split
-#ev = regressor.evaluate(input_fn=lambda: input_fn(testing_set), steps=1)
-
-#loss_score3 = ev["loss"]
-
-#print("Final Loss on the testing set with Elu: {0:f}".format(loss_score3))
-
-# Predictions
-#y_predict = regressor.predict(input_fn=lambda: input_fn(test, pred = True))
-#to_submit(y_predict, "Elu")
-
 
 
 
@@ -273,10 +193,10 @@ prepro.fit(mat_train)
 prepro_test = MinMaxScaler()
 prepro_test.fit(mat_new)
 
-train_num_scale = pd.DataFrame((mat_train),columns = col_train)
-test_num_scale  = pd.DataFrame((mat_test),columns = col_train_bis)
+train_num_scale = pd.DataFrame(prepro.transform(mat_train),columns = col_train)
+test_num_scale  = pd.DataFrame(prepro_test.transform(mat_test),columns = col_train_bis)
 
-train[col_train_num] = pd.DataFrame((mat_train),columns = col_train_num)
+train[col_train_num] = pd.DataFrame(prepro.transform(mat_train),columns = col_train_num)
 test[col_train_num_bis]  = test_num_scale
 
 # List of features
@@ -355,25 +275,14 @@ print("Final Loss on the testing set: {0:f}".format(loss_score4))
 # Predictions
 y = regressor.predict(input_fn=lambda: input_fn_new(testing_set))
 predictions = list(itertools.islice(y, testing_set.shape[0]))
-predictions = pd.DataFrame((np.array(predictions).reshape(198,1)))
+predictions = pd.DataFrame(prepro_y.inverse_transform(np.array(predictions).reshape(198,1)))
 
-matplotlib.rc('xtick', labelsize=30) 
-matplotlib.rc('ytick', labelsize=30) 
 
-fig, ax = plt.subplots(figsize=(50, 40))
-
-plt.style.use('ggplot')
-plt.plot(predictions.values, reality.values, 'ro')
-plt.xlabel('Predictions', fontsize = 30)
-plt.ylabel('Reality', fontsize = 30)
-plt.title('Predictions x Reality on dataset Test', fontsize = 30)
-ax.plot([reality.min(), reality.max()], [reality.min(), reality.max()], 'k--', lw=4)
-plt.show()
 
 
 y_predict = regressor.predict(input_fn=lambda: input_fn_new(testing_sub, training = False))
 
-to_submit(y_predict, "../data/DNNRegcontcatWOTRansOutput")
+to_submit(y_predict, "../data/DNNRegOut")
 
 # Model
 regressor = tf.contrib.learn.DNNRegressor(feature_columns = engineered_features, 
@@ -388,23 +297,5 @@ ev = regressor.evaluate(input_fn=lambda: input_fn_new(testing_set, training = Tr
 loss_score5 = ev["loss"]
 
 y_predict = regressor.predict(input_fn=lambda: input_fn_new(testing_sub, training = False))    
-to_submit(y_predict, "../data/DNNRegcontcatWOTRansShallowOutput")
+to_submit(y_predict, "../data/DNNRegShallowOut")
 
-
-#list_score = [loss_score1, loss_score2, loss_score3, loss_score4,loss_score5]
-list_model = ['Relu_cont', 'LRelu_cont', 'Elu_cont', 'Relu_cont_categ','Shallow_1ku']
-
-
-import matplotlib.pyplot as plt; plt.rcdefaults()
-
-plt.style.use('ggplot')
-objects = list_model
-y_pos = np.arange(len(objects))
-#performance = list_score
- 
-#plt.barh(y_pos, performance, align='center', alpha=0.9)
-plt.yticks(y_pos, objects)
-plt.xlabel('Loss ')
-plt.title('Model compared without hypertuning')
- 
-plt.show()
