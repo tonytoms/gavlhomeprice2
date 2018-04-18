@@ -373,7 +373,7 @@ plt.show()
 
 y_predict = regressor.predict(input_fn=lambda: input_fn_new(testing_sub, training = False))
 
-to_submit(y_predict, "submission_cont_categ")
+to_submit(y_predict, "../data/DNNRegcontcatWOTRansOutput")
 
 # Model
 regressor = tf.contrib.learn.DNNRegressor(feature_columns = engineered_features, 
@@ -388,7 +388,7 @@ ev = regressor.evaluate(input_fn=lambda: input_fn_new(testing_set, training = Tr
 loss_score5 = ev["loss"]
 
 y_predict = regressor.predict(input_fn=lambda: input_fn_new(testing_sub, training = False))    
-to_submit(y_predict, "submission_shallow")
+to_submit(y_predict, "../data/DNNRegcontcatWOTRansShallowOutput")
 
 
 #list_score = [loss_score1, loss_score2, loss_score3, loss_score4,loss_score5]

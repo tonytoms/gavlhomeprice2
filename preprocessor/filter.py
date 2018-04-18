@@ -11,16 +11,24 @@ count=-1
 
 
 datas=[]
+
+#12 beds
+#24 landsize
+#25 year build
+#40 price range min
+#44 External Price
 for dataStr in dataFiles:
  
     count=count+1
 
     
     data=dataStr.split(",")
-    if data[21]=="NA" or data[22]=="NA"  or data[37]=="NA" or data[39]=="NA" or data[43]=="NA" or data[10]=="NA" or data[42]=="NA":
+    if data[12]=="NA" or data[24]=="NA"  or data[25]=="NA" or data[40]=="NA" or data[44]=="NA" or data[47]=="NA" :
         continue
     else:
-        dataFiles2.write(dataStr)
+        del data[1]
+        dataStrMod = ','.join(data)
+        dataFiles2.write(dataStrMod)
         
 datas=[]
 for dataStr in dataFilesT:
@@ -29,7 +37,9 @@ for dataStr in dataFilesT:
 
     
     data=dataStr.split(",")
-    if data[21]=="NA" or data[22]=="NA"  or data[37]=="NA" or data[39]=="NA" or data[43]=="NA" or data[10]=="NA" or data[42]=="NA":
+    if data[12]=="NA" or data[24]=="NA"  or data[25]=="NA" or data[40]=="NA" or data[44]=="NA" or data[47]=="NA" :
         continue
     else:
-        dataFiles2T.write(dataStr)
+        del data[1]
+        dataStrMod = ','.join(data)
+        dataFiles2T.write(dataStrMod)

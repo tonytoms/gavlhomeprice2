@@ -49,7 +49,7 @@ from sklearn.preprocessing import MinMaxScaler
 tf.logging.set_verbosity(tf.logging.INFO)
 sess = tf.InteractiveSession()
 
-train = pd.read_csv('../input/train.csv')
+train = pd.read_csv('../data/train.csv')
 print('Shape of the train data with all features:', train.shape)
 train = train.select_dtypes(exclude=['object'])
 print("")
@@ -57,7 +57,7 @@ print('Shape of the train data with numerical features:', train.shape)
 train.drop('Id',axis = 1, inplace = True)
 train.fillna(0,inplace=True)
 
-test = pd.read_csv('../input/test.csv')
+test = pd.read_csv('../data/test.csv')
 test = test.select_dtypes(exclude=['object'])
 ID = test.Id
 test.fillna(0,inplace=True)
@@ -90,7 +90,7 @@ col_train_bis.remove('SalePrice')
 mat_train = np.matrix(train)
 mat_test  = np.matrix(test)
 mat_new = np.matrix(train.drop('SalePrice',axis = 1))
-mat_y = np.array(train.SalePrice).reshape((449,1))
+mat_y = np.array(train.SalePrice).reshape((597,1))
 
 prepro_y = MinMaxScaler()
 prepro_y.fit(mat_y)
@@ -169,7 +169,7 @@ print("Final Loss on the testing set: {0:f}".format(loss_score1))
 y = regressor.predict(input_fn=lambda: input_fn(testing_set))
 predictions = list(itertools.islice(y, testing_set.shape[0]))
 
-predictions = pd.DataFrame(prepro_y.inverse_transform(np.array(predictions).reshape(149,1)),columns = ['Prediction'])
+predictions = pd.DataFrame(prepro_y.inverse_transform(np.array(predictions).reshape(198,1)),columns = ['Prediction'])
 
 reality = pd.DataFrame(prepro.inverse_transform(testing_set), columns = [COLUMNS]).SalePrice
 
@@ -196,4 +196,4 @@ def to_submit(pred_y,name_out):
     y_predict = y_predict.join(ID)
     y_predict.to_csv(name_out + '.csv',index=False)
     
-to_submit(y_predict, "DNNRegConti")
+to_submit(y_predict, "../data/DNNRegContiOutput")

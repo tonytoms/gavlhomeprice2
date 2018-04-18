@@ -43,7 +43,31 @@ def shortDay(inputVal):
     if inputVal.lower()=="saturday":
         return "SDay"
     
-    
+def numtochar(inputVal):
+    if inputVal=="" or inputVal is None:
+        return "NA"
+    elif inputVal.lower()=="0":
+        return "NA"
+    elif inputVal.lower()=="1":
+        return "ONE"
+    elif inputVal.lower()=="2":
+        return "TWO"
+    elif inputVal.lower()=="3":
+        return "THREE"
+    elif inputVal.lower()=="4":
+        return "FOUR"
+    elif inputVal.lower()=="5":
+        return "FIVE"
+    elif inputVal.lower()=="6":
+        return "SIX" 
+    elif inputVal.lower()=="7":
+        return "SEVEN" 
+    elif inputVal.lower()=="8":
+        return "EIGHT" 
+    elif inputVal.lower()=="9":
+        return "NINE" 
+    else :
+        return inputVal    
 def yesno(inputVal):
     if inputVal=="" or inputVal is None:
         return ""
@@ -163,7 +187,7 @@ dataFiles2= open('../data/data_domains5.csv','w',encoding="utf8")
 
 
 dataHeader=[]
-for x in range(0,49):
+for x in range(0,48):
     dataHeader.append("")
 
 dataHeader[0]="Id"
@@ -208,13 +232,13 @@ dataHeader[38]="DistanceShoppingMall"
 dataHeader[39]="DistanceSchool"
 dataHeader[40]="PriceLowEnd"
 dataHeader[41]="PriceHighEnd"
-dataHeader[42]="LandArea"
-dataHeader[43]="Frontage"
-dataHeader[44]="Slop"
-dataHeader[45]="ExternalPricePrediction"
-dataHeader[46]="SimilarPropertyPrice1"
-dataHeader[47]="SimilarPropertyPrice2"
-dataHeader[48]="SalePrice"
+#dataHeader[42]="LandArea"
+dataHeader[42]="Frontage"
+dataHeader[43]="Slop"
+dataHeader[44]="ExternalPricePrediction"
+dataHeader[45]="SimilarPropertyPrice1"
+dataHeader[46]="SimilarPropertyPrice2"
+dataHeader[47]="SalePrice"
 
 
 for n in range(0,len(dataHeader)):
@@ -227,7 +251,7 @@ for n in range(0,len(dataHeader)):
 dataFiles2.write("\n")
 
 data=[]
-for i in range(0,49):
+for i in range(0,48):
     data.append("")
 
 i=-1
@@ -264,7 +288,8 @@ for dataFile in dataFiles:
     else:
         data[3]=int(data[3]) % 10
     
-    
+    data[2]=numtochar(str(data[2]))
+    data[3]=numtochar(str(data[3]))
     data[4]=data1[3]   # SUBURB NAME
     data[5]=data1[4]   #SUBURB CODE
 
@@ -382,25 +407,26 @@ for dataFile in dataFiles:
         data1[11]=""
     data[40]=data1[12]  # LowerPrice
     data[41]=data1[13]  # HigherPrice
-    data[45]=data1[14]  # ExternalPrice
-    data[46]=data1[22]  # Similar Pprty Price 1
-    data[47]=data1[23]  # Sim ilar pprty Price 2
-    data[48]=data1[11]  # Price
+    data[44]=data1[14]  # ExternalPrice
+    data[45]=data1[22]  # Similar Pprty Price 1
+    data[46]=data1[23]  # Sim ilar pprty Price 2
+    data[47]=data1[11]  # Price
  
  
  
     landarea=data1[42].split(" ")
-    data[42]=landarea[0] # LandArea
+    if data[24]=="" or data[24] is None:
+        data[24]=landarea[0] # LandArea
     frontage=data1[43].split(" ")
-    data[43]=frontage[0]  # Frontage
-    data[44]=slop(data1[44])  # Slop
+    data[42]=frontage[0]  # Frontage
+    data[43]=slop(data1[44])  # Slop
 
    
     nullcounter=0
-    if data[48]=="" or data[48] is None:
+    if data[47]=="" or data[47] is None:
         continue
     try:
-        float(data[48])
+        float(data[47])
     except:
         continue
        
@@ -414,4 +440,3 @@ for dataFile in dataFiles:
     dataFiles2.write("\n")
    
     dataFiles2.flush()
-   

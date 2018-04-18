@@ -21,7 +21,7 @@ def write_to_csv(output,score):
     print('Writing submission: ', sub_file)
     f = open(sub_file, 'w')
     prediction_file_object = csv.writer(f)
-    prediction_file_object.writerow(["Id","Price"])  # don't forget the headers
+    prediction_file_object.writerow(["Id","SalePrice"])  # don't forget the headers
 
     for i in range(len(test)):
         prediction_file_object.writerow([test["Id"][test.index[i]], (output[i])])
@@ -68,7 +68,7 @@ def process_features(train,test):
     
     return train,test,features
 
-def train_and_test_linear(train,test,features,target='Price'): # simple xgboost
+def train_and_test_linear(train,test,features,target='SalePrice'): # simple xgboost
     subsample = 0.8
     colsample_bytree = 0.8
     num_boost_round = 1200 #115 originally 
@@ -94,7 +94,6 @@ def train_and_test_linear(train,test,features,target='Price'): # simple xgboost
     y_valid = np.log(X_valid[target])
     dtrain = xgb.DMatrix(X_train[features], y_train) # DMatrix are matrix for xgboost
     dvalid = xgb.DMatrix(X_valid[features], y_valid)
-
     watchlist = [(dtrain, 'train'), (dvalid, 'eval')] # list of things to evaluate and print
     gbm = xgb.train(params, dtrain, num_boost_round, evals=watchlist, early_stopping_rounds=early_stopping_rounds, verbose_eval=True) # find the best score
     score = gbm.best_score #roc_auc_score(X_valid[target].values, check)
@@ -107,7 +106,7 @@ def train_and_test_linear(train,test,features,target='Price'): # simple xgboost
 
     return test_prediction, score    
 
-def train_and_test_tree(train,test,features,target='Price'): # simple xgboost
+def train_and_test_tree(train,test,features,target='SalePrice'): # simple xgboost
     eta_list = [0.1,0.2] # list of parameters to try
     max_depth_list = [4,6,8] # list of parameters to try
     subsample = 0.8
@@ -153,7 +152,7 @@ def train_and_test_tree(train,test,features,target='Price'): # simple xgboost
         array_score[i][1]=max_depth
         array_score[i][2]=score
         i+=1
-    df_score=pd.DataFrame(array_score,columns=['eta','max_depth','Price'])
+    df_score=pd.DataFrame(array_score,columns=['eta','max_depth','SalePrice'])
     print("df_score : \n", df_score)
     #create_feature_map(features)
     importance = gbm.get_fscore()
@@ -167,7 +166,7 @@ def train_and_test_tree(train,test,features,target='Price'): # simple xgboost
 
     return test_prediction, score 
 
-def train_and_test_Kfold(train,test,features,target='Price'): # add Kfold
+def train_and_test_Kfold(train,test,features,target='SalePrice'): # add Kfold
     eta_list = [0.01] # list of parameters to try
     max_depth_list = [6]
     subsample = 1 # No subsampling, as we already use Kfold latter and we don't have that much data
@@ -251,8 +250,8 @@ def train_and_test_Kfold(train,test,features,target='Price'): # add Kfold
 
 num_features = None # Choose how many features you want to use. None = all
 
-train = pd.read_csv("../data/train.csv") # read train data
-test = pd.read_csv("../data/test.csv") # read test data
+train = pd.read_csv("../input/train.csv") # read train data
+test = pd.read_csv("../input/test.csv") # read test data
 
 train,test,features = process_features(train,test)
 
