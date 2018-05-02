@@ -1,4 +1,4 @@
-filename='DNNRegcontcatWOTRansShallowOutput'
+filename='lasso_ridge_xgb_v2'
 dataFiles= open(filename+'.csv','r',encoding="utf8")
 dataFiles2= open('../data/data_domains5.csv','r',encoding="utf8")
 #dataFile.write("no,Link,street,Suburb_add,post,sold_year,status,property_type,bed,bath,car,price,Estimate_low_end,Estimate_high_end,Ext_price_estimate,garden,pool,heating,cooling,neigh_bed_1,neigh_bath_1,neigh_car_1,neigh_price_1,neigh_bed_2,neigh_bath_2,neigh_car_2,neigh_price_2,smlr_pprty_price_1,smlr_pprty_price_2,floor_size,build_size,build_year,num_solds,num_rents,last_sold_price,last_rent_price,last_sold_year,last_rent_year,min_temp,max_temp,Rainfall,near_supermarket,near_school,near_sec_college,near_univ \n")

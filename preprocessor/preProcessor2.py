@@ -248,8 +248,8 @@ def train_and_test_Kfold(train,test,features,target='SalePrice'): # add Kfold
 
 num_features = None # Choose how many features you want to use. None = all
 
-train = pd.read_csv("input/train.csv") # read train data
-test = pd.read_csv("input/test.csv") # read test data
+train = pd.read_csv("../input/train.csv") # read train data
+test = pd.read_csv("../input/test.csv") # read test data
 
 train,test,features = process_features(train,test)
 

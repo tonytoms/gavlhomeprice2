@@ -1,0 +1,3 @@
+Head,DNNRegOut,xgboost_regression
+Mean Difference %,13.929122828256734,85.44242695120211
+Mean Variance %,10.03753392836099,1.9432442296331758

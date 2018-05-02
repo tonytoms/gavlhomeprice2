@@ -14,10 +14,23 @@ import tensorflow as tf
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 
+
+inputTrainFile=""
+inputTestFile=""
+DNNFileOut=""
+DNNSHallowOut=""
+dataFiles= open('../files/DNNfeed.csv','r',encoding="utf8")
+for data in dataFiles:
+    inputTrainFile=data.split(',')[0]
+    inputTestFile=data.split(',')[1]
+    DNNFileOut=data.split(',')[2]
+    DNNSHallowOut=data.split(',')[3]
+    
+    
 tf.logging.set_verbosity(tf.logging.INFO)
 sess = tf.InteractiveSession()
 
-train = pd.read_csv('../data/train.csv')
+train = pd.read_csv(inputTrainFile+".csv")
 print('Shape of the train data with all features:', train.shape)
 train = train.select_dtypes(exclude=['object'])
 print("")
@@ -25,7 +38,7 @@ print('Shape of the train data with numerical features:', train.shape)
 train.drop('Id',axis = 1, inplace = True)
 train.fillna(0,inplace=True)
 
-test = pd.read_csv('../data/test.csv')
+test = pd.read_csv(inputTestFile+".csv")
 test = test.select_dtypes(exclude=['object'])
 ID = test.Id
 test.fillna(0,inplace=True)
@@ -36,6 +49,8 @@ print("List of features contained our dataset:",list(train.columns))
 
 
 from sklearn.ensemble import IsolationForest
+
+
 
 clf = IsolationForest(max_samples = 100, random_state = 42)
 clf.fit(train)
@@ -127,6 +142,8 @@ reality = pd.DataFrame((testing_set), columns = [COLUMNS]).SalePrice
 
 
 def to_submit(pred_y,name_out):
+    
+    
     y_predict = list(itertools.islice(pred_y, test.shape[0]))
     y_predict = pd.DataFrame(prepro_y.inverse_transform(np.array(y_predict).reshape(len(y_predict),1)), columns = ['SalePrice'])
     y_predict = y_predict.join(ID)
@@ -136,7 +153,7 @@ def to_submit(pred_y,name_out):
 
 
 # Import and split
-train = pd.read_csv('../data/train.csv')
+train = pd.read_csv(inputTrainFile+".csv")
 train.drop('Id',axis = 1, inplace = True)
 train_numerical = train.select_dtypes(exclude=['object'])
 train_numerical.fillna(0,inplace = True)
@@ -144,7 +161,7 @@ train_categoric = train.select_dtypes(include=['object'])
 train_categoric.fillna('NONE',inplace = True)
 train = train_numerical.merge(train_categoric, left_index = True, right_index = True) 
 
-test = pd.read_csv('../data/test.csv')
+test = pd.read_csv(inputTestFile+".csv")
 ID = test.Id
 test.drop('Id',axis = 1, inplace = True)
 test_numerical = test.select_dtypes(exclude=['object'])
@@ -275,14 +292,14 @@ print("Final Loss on the testing set: {0:f}".format(loss_score4))
 # Predictions
 y = regressor.predict(input_fn=lambda: input_fn_new(testing_set))
 predictions = list(itertools.islice(y, testing_set.shape[0]))
-predictions = pd.DataFrame(prepro_y.inverse_transform(np.array(predictions).reshape(198,1)))
+predictions = pd.DataFrame(prepro_y.inverse_transform(np.array(predictions).reshape(testing_set.shape[0],1)))
 
 
 
 
 y_predict = regressor.predict(input_fn=lambda: input_fn_new(testing_sub, training = False))
 
-to_submit(y_predict, "../data/DNNRegOut")
+to_submit(y_predict, DNNFileOut)
 
 # Model
 regressor = tf.contrib.learn.DNNRegressor(feature_columns = engineered_features, 
@@ -297,5 +314,5 @@ ev = regressor.evaluate(input_fn=lambda: input_fn_new(testing_set, training = Tr
 loss_score5 = ev["loss"]
 
 y_predict = regressor.predict(input_fn=lambda: input_fn_new(testing_sub, training = False))    
-to_submit(y_predict, "../data/DNNRegShallowOut")
+to_submit(y_predict, DNNSHallowOut)
 

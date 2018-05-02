@@ -611,8 +611,8 @@ ID,ActualPrice,DNN_PRICE,Difference,Percent_DIFF,,ID,ActualPrice,DNN_Shallow_PRI
 3467,902000,828282.94,73717.06000000006,8.172623059866968,,3467,902000,885474.2,16525.800000000047,1.832128603104218
  DNNRegOut
 
-Average Difference:,- ,9.241532199546159
-RMSE:,- ,144878.4783294962
+ Mean Difference %:,- ,9.241532199546159
+RMSE:,DNNRegOut,144878.4783294962
 Records with Difference, 0%- 5%: ,37.12871287128713
 Records with Difference, 5%-10%: ,26.567656765676567
 Records with Difference, 10% -20%: ,27.22772277227723
@@ -621,8 +621,8 @@ Records with Difference, 50%+: ,0.49504950495049505
 
   DNNRegShallowOut
 
-Average Difference:,- ,8.384161845431194
-RMSE:,- ,125301.01711926522
+ Mean Difference %:,- ,8.384161845431194
+RMSE:,DNNRegShallowOut,125301.01711926522
 Records with Difference, 0%- 5%: ,42.9042904290429
 Records with Difference, 5%-10%: ,26.237623762376238
 Records with Difference, 10% -20%: ,23.597359735973598
