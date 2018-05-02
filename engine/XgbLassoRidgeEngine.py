@@ -91,6 +91,8 @@ plt.ylabel("rmse")
 cv_ridge.min()
 model_ridge = Ridge(alpha = 5).fit(X_train, y)
 
+
+
 #let's look at the residuals as well:
 matplotlib.rcParams['figure.figsize'] = (6.0, 6.0)
 
