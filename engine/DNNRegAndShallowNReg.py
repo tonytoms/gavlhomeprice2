@@ -15,17 +15,18 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 
 
-inputTrainFile=""
-inputTestFile=""
-DNNFileOut=""
-DNNSHallowOut=""
+inputTrainFile="../data/train"
+inputTestFile="../data/test"
+DNNFileOut="DNNOut"
+DNNSHallowOut="DNNShallowOut"
+'''
 dataFiles= open('../files/DNNfeed.csv','r',encoding="utf8")
 for data in dataFiles:
     inputTrainFile=data.split(',')[0]
     inputTestFile=data.split(',')[1]
     DNNFileOut=data.split(',')[2]
     DNNSHallowOut=data.split(',')[3]
-    
+'''    
     
 tf.logging.set_verbosity(tf.logging.INFO)
 sess = tf.InteractiveSession()

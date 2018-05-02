@@ -3,8 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 
-filename1='DNNRegOut'
-filename2='xgboost_regression'
+filename1='DNNOut'
+filename2='DNNShallowOut'
 
 dataFilesMaster= open('../data/data_domains5.csv','r',encoding="utf8")
 dataFile1= open("../data/"+filename1+'.csv','r',encoding="utf8")
