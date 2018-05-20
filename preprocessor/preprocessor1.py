@@ -23,8 +23,21 @@ from datetime import date
 import holidays
 import calendar
 
+'''
+Created on Feb 5, 2018
+     Execution Order : 6
+     Input files: links_domain4.csv,
+     Output Files: data_domain5.csv 
+     Input : NILL
+     
+
+This file pre process the data file. change all columns into a standard format
 
 
+@author: Tony Toms
+'''
+
+#################### This function converts weekday names into their short forms############################################################################
 def shortDay(inputVal):
     if inputVal=="" or inputVal is None:
         return ""
@@ -42,7 +55,11 @@ def shortDay(inputVal):
         return "FDay"
     if inputVal.lower()=="saturday":
         return "SDay"
-    
+
+###################################This function return character form of a number#####################
+'''
+For house number , we select the last digit , convert it to character, then returns
+'''    
 def numtochar(inputVal):
     if inputVal=="" or inputVal is None:
         return "NA"
@@ -67,7 +84,9 @@ def numtochar(inputVal):
     elif inputVal.lower()=="9":
         return "NINE" 
     else :
-        return inputVal    
+        return inputVal   
+    
+################ This function returns yes , no into Y and N respectively######################### 
 def yesno(inputVal):
     if inputVal=="" or inputVal is None:
         return ""
@@ -78,7 +97,10 @@ def yesno(inputVal):
     else:
         return str(inputVal)
     
-    slop
+    
+    
+    
+################# This function converts slop details into short forms  ######################################
 def slop(inputVal):
     retval=""
     if inputVal=="Nearly Level":
@@ -91,7 +113,12 @@ def slop(inputVal):
         retval="Steep"
     else:
         retval=inputVal  
-    return retval    
+    return retval 
+
+
+
+################# This function converts Property Type details into short forms  ######################################
+   
 def propertyTypeFn(inputVal):
     retval=""
     if inputVal=="Apartment / Unit / Flat":
@@ -166,6 +193,9 @@ def propertyTypeFn(inputVal):
         retval=inputVal  
     return retval    
 
+
+################# This function converts distance in Meters into Kilometers ######################################
+
 def dist(inputVal):
     if inputVal=="" or inputVal is None:
         return ""
@@ -176,6 +206,8 @@ def dist(inputVal):
     else:
         return inputVal
 
+
+###################################################################################################
 
 
 dataFiles= open('../data/data_domains4.csv','r',encoding="utf8")
@@ -240,7 +272,7 @@ dataHeader[45]="SimilarPropertyPrice1"
 dataHeader[46]="SimilarPropertyPrice2"
 dataHeader[47]="SalePrice"
 
-
+##  WRITE HEADER 
 for n in range(0,len(dataHeader)):
 
     dataFiles2.write(dataHeader[n])
@@ -255,6 +287,10 @@ for i in range(0,48):
     data.append("")
 
 i=-1
+
+
+##  WRITE Data 
+
 for dataFile in dataFiles:
     dataFile=dataFile.replace("\n","")
 
@@ -293,13 +329,14 @@ for dataFile in dataFiles:
     data[4]=data1[3]   # SUBURB NAME
     data[5]=data1[4]   #SUBURB CODE
 
-    #dates
+    #DATES STANTARDISING  ################################
     
     
     soldDateList=data1[5].split("/")    
     datetime_object = datetime.strptime(data1[5] , '%d/%m/%Y')
     
     
+    ### Checking if its a weekend  ################################
     day=(calendar.day_name[datetime_object.weekday()])
     timeofWeek=''
     if(day=="Sunday" or day=="Saturday"):
@@ -307,7 +344,8 @@ for dataFile in dataFiles:
     else:
         timeofWeek="WkDay" 
     
-    
+        ### Checking if its a public holiday  ################################
+   
     aus_holidays = holidays.AU(prov = 'VIC')  # or holidays.US(), or holidays.CountryHoliday('US')
     dayType=""
     if date(int(soldDateList[2]), int(soldDateList[1]), int(soldDateList[0])) in aus_holidays:
@@ -429,11 +467,14 @@ for dataFile in dataFiles:
         float(data[47])
     except:
         continue
-       
 
     for n in range(0,len(data)):
         if data[n] is None or data[n]=="":
-            data[n]="NA"
+            # Changing numeric field null values to 0 and categorical field null value to 'NA'
+            if n==1 or n==0 or n==2 or n==3 or n==4 or n==7 or n==8 or n==9 or n==10 or n==11 or n==18 or n==19 or n==20 or n==21 or n==43:
+                data[n]="NA"
+            else:
+                data[n]="0"
         dataFiles2.write(str(data[n]))
         if n<(len(data)-1):
             dataFiles2.write(",")

@@ -17,6 +17,20 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 import csv
 import requests
+'''
+Created on Dec 25, 2017
+     Execution Order : 4
+     Input files: links_domain2.csv,
+     Output Files: data_domain3.csv 
+     Input : 
+             1- Starting listing number from links_domain.csv(usually 1)
+     
+
+This file collects slop,landsize and frontage from showneighbour website for each listing link given in links_domain3.csv
+
+
+@author: Tony Toms
+'''
 
 
 start = input("Enter starting index: ")
@@ -26,8 +40,9 @@ keys=[]
 with open('../files/googleAPIKEYS.txt', 'r') as ins:
     for line in ins:
         keys.append(line)
-
 count=-1
+
+
 with open('../data/data_domains2.csv', newline='') as myFile:  
    
         reader = csv.reader(myFile)
@@ -79,12 +94,7 @@ with open('../data/data_domains2.csv', newline='') as myFile:
                         details[1]=tds[count+1].text
                     if(tds[count].text=="Slope:"):
                         details[2]=tds[count+1].text
-                    #if("Degree of slope" in tds[count].text and "The back of the land is" in tds[count].text and check==0):
-                     #   details[3]=tds[count].text
-                      #  check=check+1
-                    #if("Degree of slope" in tds[count].text and "The left of the land" in tds[count].text and check==1):
-                     #   details[4]=tds[count].text                                                                                            
-                    
+
                     count=count+1
 
                 for detail in details:

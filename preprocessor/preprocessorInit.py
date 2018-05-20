@@ -17,7 +17,19 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from builtins import int
 import csv
+'''
+Created on Dec 25, 2017
+     Execution Order : 5
+     Input files: links_domain3.csv,
+     Output Files: data_domain4.csv 
+     Input : NILL
+     
 
+This file re- arranges the data file and give proper head fields 
+
+
+@author: Tony Toms
+'''
 
 
 dataFiles2= open('../data/data_domains4.csv','w',encoding="utf8")
@@ -76,7 +88,7 @@ dataHeader[43]="43-Land-Area"
 dataHeader[44]="44-Frontage"
 dataHeader[45]="45-slop"
 
-
+##  CONTAIN HEADER DETAILS
 for n in range(1,len(dataHeader)):
 
     dataFiles2.write(dataHeader[n])
@@ -85,6 +97,8 @@ for n in range(1,len(dataHeader)):
 dataFiles2.write("\n")
 
 count=-1
+
+#####################WRITTING REST OF THE DATA  #######################################################
 with open('../data/data_domains3.csv', newline='') as myFile:  
    
         reader = csv.reader(myFile)

@@ -8,10 +8,20 @@ import sys
 
 '''
 Created on Dec 23, 2017
- The URL scraper will find all the URLs from the domain.com.au 
+
+     Execution Order : 1
+     Input files: None
+     Output Files: links_domain.csv - contains all listing links
+     Input : 
+             1- Starting post code(usually 3000)
+     
+ The URL scraper will find all the URLs of listings from the domain.com.au 
+ 
 @author: Tony Toms
 '''
 
+
+##################################################################################################################################################
 #This function will find all total number of pages for the particular post code 
 def totPageNumber(pageUrl):
         uclient=urllib.request.urlopen(pageUrl)
@@ -27,8 +37,11 @@ def totPageNumber(pageUrl):
             
         uclient.close()
         return int(lastPageUrl)
- 
 
+
+##################################################################################################################################################
+ 
+# From each search result 'link' found, all listing urls are written into a file
 def writeListingLinks(link, ListingCount):   
     Linkfile = open("../data/links_domain.csv","a") 
     k=1
@@ -41,17 +54,18 @@ def writeListingLinks(link, ListingCount):
     for EachPart in soup.select('a[class*="listing-result"]'):
         Linkfile.write(str(ListingCount)+","+ EachPart["href"]+",D\n")
         ListingCount=ListingCount+1
-        
-
-    
 
     Linkfile.close()
     return ListingCount
 
+
+
+
+##################################################################################################################################################
     
 #Basic URL    
 domainUrl="https://www.domain.com.au/sold-listings/?ssubs=1&postcode="
-postCode=3000
+postCode=3000  # Starting Post code
 ListingCount=1
  
 '''
@@ -63,8 +77,8 @@ nearby suburbs are:
 loggerFile=logger.init()
 
 logger.fileWriteln("----------------------------------------------------------------------",loggerFile)
-logger.fileWriteln("STEP 1 of 4 : URL SCRAPPING DOMAIN.COM.AU----  "+str(datetime.now()),loggerFile)
-print("STEP 1 of 4 : URL SCRAPPING DOMAIN.COM.AU----------")
+logger.fileWriteln("SCRAPPING : URL SCRAPPING DOMAIN.COM.AU----  "+str(datetime.now()),loggerFile)
+print("SCRAPPING : URL SCRAPPING DOMAIN.COM.AU----------")
 logger.fileWriteln("----------------------------------------------------------------------",loggerFile)
 
 start = input("ENter the STarting Post CODE:")
@@ -77,6 +91,12 @@ logger.fileWriteln(" Starting from POST CODE :"+str(start),loggerFile)
 priceControl=50000
 incrementer=50000
 pricerange=[]
+
+
+# For each post code 
+#     each search result is again filtered by price slab starting from 50 000 to 1 300 000
+#    Search results after page number 50 can't be obtained. In order to reduce the total page numbers , we are splitting the search
+#    with price slabs. 
 while priceControl<13000000:
     if priceControl<1000000:
         incrementer=50000
@@ -110,7 +130,6 @@ for x in range(int(start),4000):
         pageUrl1=pageUrl+pricerangeItem
         totalPages=totPageNumber(pageUrl1)
         logger.fileWriteln("Post Code:"+str(x)+" : price Range :"+pricerangeItem+" : Number of Pages: " +str(totalPages) ,loggerFile)
-        #If total page > 9 then the all pages for that Post code is saved to the file
         print(pageUrl1)
         if totalPages>0:
             for y in range(1,totalPages+1):
@@ -125,18 +144,13 @@ for x in range(int(start),4000):
                         continue
                     break
 
-                #print("\n       Listing SCRAPPING DOMAIN.COM.AU: "+str(y*100/totalPages)+"% Completed")
                 logger.fileWriteln("      - URL :"+pageUrl1+"&page="+str(y)  +" : Listings Found :" +str(ListingCount-ListingCountBef),loggerFile)
+    print("\n SCRAPPING : URL SCRAPPING DOMAIN.COM.AU:Suburb - "+str(x)+" Completed")
 
-       
 
-            
-    #print("\n STEP 1 of 4 : URL SCRAPPING DOMAIN.COM.AU:"+str( ((x-3000)/(3999-3000) ) *100 )+"% Completed")
-    print("\n STEP 1 of 4 : URL SCRAPPING DOMAIN.COM.AU:Suburb - "+str(x)+" Completed")
 
 logger.fileWriteln("----------------------------------------------------------------------",loggerFile)
-
-logger.fileWriteln("STEP 1 of 4: URL SCRAPPING DOMAIN.COM.AU COMPLETED :"+str(datetime.now())+ " TOTAL :"+str(ListingCount)+"  URLs Found",loggerFile)
+logger.fileWriteln("SCRAPPING: URL SCRAPPING DOMAIN.COM.AU COMPLETED :"+str(datetime.now())+ " TOTAL :"+str(ListingCount)+"  URLs Found",loggerFile)
 logger.fileWriteln("----------------------------------------------------------------------",loggerFile)
 
 logger.destry(loggerFile)

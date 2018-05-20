@@ -1066,3 +1066,385 @@ STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  2018-03-20 13:39:19.866949
 1 :  Processing :https://www.domain.com.au/27-1-o-connell-st-north-melbourne-vic-3051-2011940627
 
    *** WARNING: in PRice Estmator  URL :https://www.realestateview.com.au/property-360/property/27-1-O’Connell-St-north-melbourne-vic-3051/
+----------------------------------------------------------------------
+STEP 1 of 4 : URL SCRAPPING DOMAIN.COM.AU----  2018-05-02 17:31:53.158410
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+STEP 1 of 4 : URL SCRAPPING DOMAIN.COM.AU----  2018-05-02 17:32:37.027475
+----------------------------------------------------------------------
+ Starting from POST CODE :3000
+Post Code:3000 : price Range :&price=50000-100000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=50000-100000&page=1 : Listings Found :15
+Post Code:3000 : price Range :&price=100000-150000 : Number of Pages: 5
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=100000-150000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=100000-150000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=100000-150000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=100000-150000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=100000-150000&page=5 : Listings Found :7
+Post Code:3000 : price Range :&price=150000-200000 : Number of Pages: 11
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=150000-200000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=150000-200000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=150000-200000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=150000-200000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=150000-200000&page=5 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=150000-200000&page=6 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=150000-200000&page=7 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=150000-200000&page=8 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=150000-200000&page=9 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=150000-200000&page=10 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=150000-200000&page=11 : Listings Found :8
+Post Code:3000 : price Range :&price=200000-250000 : Number of Pages: 15
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=5 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=6 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=7 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=8 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=9 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=10 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=11 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=12 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=13 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=14 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=200000-250000&page=15 : Listings Found :20
+Post Code:3000 : price Range :&price=250000-300000 : Number of Pages: 19
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=5 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=6 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=7 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=8 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=9 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=10 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=11 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=12 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=13 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=14 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=15 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=16 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=17 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=18 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=250000-300000&page=19 : Listings Found :5
+Post Code:3000 : price Range :&price=300000-350000 : Number of Pages: 30
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=5 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=6 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=7 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=8 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=9 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=10 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=11 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=12 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=13 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=14 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=15 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=16 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=17 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=18 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=19 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=20 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=21 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=22 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=23 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=24 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=25 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=26 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=27 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=28 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=29 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=300000-350000&page=30 : Listings Found :6
+Post Code:3000 : price Range :&price=350000-400000 : Number of Pages: 30
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=5 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=6 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=7 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=8 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=9 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=10 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=11 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=12 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=13 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=14 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=15 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=16 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=17 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=18 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=19 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=20 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=21 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=22 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=23 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=24 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=25 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=26 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=27 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=28 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=29 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=350000-400000&page=30 : Listings Found :3
+Post Code:3000 : price Range :&price=400000-450000 : Number of Pages: 27
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=5 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=6 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=7 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=8 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=9 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=10 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=11 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=12 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=13 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=14 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=15 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=16 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=17 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=18 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=19 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=20 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=21 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=22 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=23 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=24 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=25 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=26 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=400000-450000&page=27 : Listings Found :16
+Post Code:3000 : price Range :&price=450000-500000 : Number of Pages: 21
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=5 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=6 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=7 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=8 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=9 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=10 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=11 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=12 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=13 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=14 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=15 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=16 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=17 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=18 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=19 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=20 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=450000-500000&page=21 : Listings Found :1
+Post Code:3000 : price Range :&price=500000-550000 : Number of Pages: 22
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=5 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=6 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=7 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=8 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=9 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=10 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=11 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=12 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=13 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=14 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=15 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=16 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=17 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=18 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=19 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=20 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=21 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=500000-550000&page=22 : Listings Found :1
+Post Code:3000 : price Range :&price=550000-600000 : Number of Pages: 17
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=5 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=6 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=7 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=8 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=9 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=10 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=11 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=12 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=13 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=14 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=15 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=16 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=550000-600000&page=17 : Listings Found :7
+Post Code:3000 : price Range :&price=600000-650000 : Number of Pages: 12
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=600000-650000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=600000-650000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=600000-650000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=600000-650000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=600000-650000&page=5 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=600000-650000&page=6 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=600000-650000&page=7 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=600000-650000&page=8 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=600000-650000&page=9 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=600000-650000&page=10 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=600000-650000&page=11 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=600000-650000&page=12 : Listings Found :8
+Post Code:3000 : price Range :&price=650000-700000 : Number of Pages: 9
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=650000-700000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=650000-700000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=650000-700000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=650000-700000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=650000-700000&page=5 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=650000-700000&page=6 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=650000-700000&page=7 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=650000-700000&page=8 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=650000-700000&page=9 : Listings Found :17
+Post Code:3000 : price Range :&price=700000-750000 : Number of Pages: 7
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=700000-750000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=700000-750000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=700000-750000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=700000-750000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=700000-750000&page=5 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=700000-750000&page=6 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=700000-750000&page=7 : Listings Found :8
+Post Code:3000 : price Range :&price=750000-800000 : Number of Pages: 5
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=750000-800000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=750000-800000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=750000-800000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=750000-800000&page=4 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=750000-800000&page=5 : Listings Found :19
+Post Code:3000 : price Range :&price=800000-850000 : Number of Pages: 4
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=800000-850000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=800000-850000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=800000-850000&page=3 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=800000-850000&page=4 : Listings Found :5
+Post Code:3000 : price Range :&price=850000-900000 : Number of Pages: 3
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=850000-900000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=850000-900000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=850000-900000&page=3 : Listings Found :4
+Post Code:3000 : price Range :&price=900000-950000 : Number of Pages: 3
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=900000-950000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=900000-950000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=900000-950000&page=3 : Listings Found :1
+Post Code:3000 : price Range :&price=950000-1000000 : Number of Pages: 2
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=950000-1000000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=950000-1000000&page=2 : Listings Found :17
+Post Code:3000 : price Range :&price=1000000-1100000 : Number of Pages: 2
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=1000000-1100000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=1000000-1100000&page=2 : Listings Found :18
+Post Code:3000 : price Range :&price=1100000-1200000 : Number of Pages: 2
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=1100000-1200000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=1100000-1200000&page=2 : Listings Found :18
+Post Code:3000 : price Range :&price=1200000-1300000 : Number of Pages: 3
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=1200000-1300000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=1200000-1300000&page=2 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=1200000-1300000&page=3 : Listings Found :2
+Post Code:3000 : price Range :&price=1300000-1400000 : Number of Pages: 2
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=1300000-1400000&page=1 : Listings Found :20
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=1300000-1400000&page=2 : Listings Found :15
+Post Code:3000 : price Range :&price=1400000-1500000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=1400000-1500000&page=1 : Listings Found :14
+Post Code:3000 : price Range :&price=1500000-1600000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=1500000-1600000&page=1 : Listings Found :17
+Post Code:3000 : price Range :&price=1600000-1700000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=1600000-1700000&page=1 : Listings Found :12
+Post Code:3000 : price Range :&price=1700000-1800000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=1700000-1800000&page=1 : Listings Found :11
+Post Code:3000 : price Range :&price=1800000-1900000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=1800000-1900000&page=1 : Listings Found :12
+Post Code:3000 : price Range :&price=1900000-2000000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=1900000-2000000&page=1 : Listings Found :8
+Post Code:3000 : price Range :&price=2000000-2250000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=2000000-2250000&page=1 : Listings Found :19
+Post Code:3000 : price Range :&price=2250000-2500000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=2250000-2500000&page=1 : Listings Found :10
+Post Code:3000 : price Range :&price=2500000-2750000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=2500000-2750000&page=1 : Listings Found :10
+Post Code:3000 : price Range :&price=2750000-3000000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=2750000-3000000&page=1 : Listings Found :6
+Post Code:3000 : price Range :&price=3000000-4000000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=3000000-4000000&page=1 : Listings Found :10
+Post Code:3000 : price Range :&price=4000000-5000000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=4000000-5000000&page=1 : Listings Found :5
+Post Code:3000 : price Range :&price=5000000-6000000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=5000000-6000000&page=1 : Listings Found :2
+Post Code:3000 : price Range :&price=6000000-7000000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=6000000-7000000&page=1 : Listings Found :3
+Post Code:3000 : price Range :&price=7000000-8000000 : Number of Pages: 1
+      - URL :https://www.domain.com.au/sold-listings/?ssubs=1&postcode=3000&price=7000000-8000000&page=1 : Listings Found :1
+Post Code:3000 : price Range :&price=8000000-9000000 : Number of Pages: 0
+Post Code:3000 : price Range :&price=9000000-10000000 : Number of Pages: 0
+Post Code:3000 : price Range :&price=10000000-11000000 : Number of Pages: 0
+Post Code:3000 : price Range :&price=11000000-12000000 : Number of Pages: 0
+Post Code:3000 : price Range :&price=12000000-13000000 : Number of Pages: 0
+Post Code:3001 : price Range :&price=50000-100000 : Number of Pages: 0
+Post Code:3001 : price Range :&price=100000-150000 : Number of Pages: 0
+Post Code:3001 : price Range :&price=150000-200000 : Number of Pages: 0
+Post Code:3001 : price Range :&price=200000-250000 : Number of Pages: 0
+Post Code:3001 : price Range :&price=250000-300000 : Number of Pages: 0
+Post Code:3001 : price Range :&price=300000-350000 : Number of Pages: 0
+Post Code:3001 : price Range :&price=350000-400000 : Number of Pages: 0
+Post Code:3001 : price Range :&price=400000-450000 : Number of Pages: 0
+Post Code:3001 : price Range :&price=450000-500000 : Number of Pages: 0
+Post Code:3001 : price Range :&price=500000-550000 : Number of Pages: 0
+Post Code:3001 : price Range :&price=550000-600000 : Number of Pages: 0
+Post Code:3001 : price Range :&price=600000-650000 : Number of Pages: 0
+Post Code:3001 : price Range :&price=650000-700000 : Number of Pages: 0
+Post Code:3001 : price Range :&price=700000-750000 : Number of Pages: 0
+----------------------------------------------------------------------
+Data Collection : Data Collection DOMAIN.COM.AU----  2018-05-02 17:57:30.542207
+----------------------------------------------------------------------
+   Starting at Listing No:1
+  Retriving Links...  : 6137 Links Found
+----------------------------------------------------------------------------------------
+1 :  Processing :https://www.domain.com.au/27-1-o-connell-st-north-melbourne-vic-3051-2011940627
+
+   *** WARNING: in PRice Estmator  URL :https://www.realestateview.com.au/property-360/property/27-1-O’Connell-St-north-melbourne-vic-3051/
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------------------------
+3 :  Processing :https://www.domain.com.au/201-6-8-high-street-north-melbourne-vic-3051-2013238532
+
+   *** WARNING: in PRice Estmator  URL :https://www.realestateview.com.au/property-360/property/201-6-8-High-Street-north-melbourne-vic-3051/
+----------------------------------------------------------------------------------------
+4 :  Processing :https://www.domain.com.au/120-3-11-high-street-north-melbourne-vic-3051-2012976811
+
+   *** WARNING: in property sold year below 2013 Skipping count:5URL:https://www.domain.com.au/120-3-11-high-street-north-melbourne-vic-3051-2012976811
+----------------------------------------------------------------------------------------
+5 :  Processing :https://www.domain.com.au/518-9-high-street-north-melbourne-vic-3051-2011687365
+----------------------------------------------------------------------------------------
+6 :  Processing :https://www.domain.com.au/116-9-high-street-north-melbourne-vic-3051-2012190170
+----------------------------------------------------------------------------------------
+7 :  Processing :https://www.domain.com.au/209-6-8-high-street-north-melbourne-vic-3051-2010931382
+
+   *** WARNING: in PRice Estmator  URL :https://www.realestateview.com.au/property-360/property/209-6-8-High-Street-north-melbourne-vic-3051/
+----------------------------------------------------------------------------------------
+8 :  Processing :https://www.domain.com.au/609-6-8-high-street-north-melbourne-vic-3051-2010295252
+
+   *** WARNING: in property sold year below 2013 Skipping count:9URL:https://www.domain.com.au/609-6-8-high-street-north-melbourne-vic-3051-2010295252
+----------------------------------------------------------------------------------------
+9 :  Processing :https://www.domain.com.au/207-6-high-street-north-melbourne-vic-3051-2011621660
+
+   *** WARNING: in property sold year below 2013 Skipping count:10URL:https://www.domain.com.au/207-6-high-street-north-melbourne-vic-3051-2011621660
+----------------------------------------------------------------------------------------
+10 :  Processing :https://www.domain.com.au/105-188-peel-street-north-melbourne-vic-3051-2011261717
+----------------------------------------------------------------------
+Data Collection : Data Collection DOMAIN.COM.AU----  2018-05-02 18:01:14.688492
+----------------------------------------------------------------------
+   Starting at Listing No:1
+  Retriving Links...  : 6137 Links Found
+----------------------------------------------------------------------------------------
+1 :  Processing :https://www.domain.com.au/27-1-o-connell-st-north-melbourne-vic-3051-2011940627
+
+   *** WARNING: in PRice Estmator  URL :https://www.realestateview.com.au/property-360/property/27-1-O’Connell-St-north-melbourne-vic-3051/
+----------------------------------------------------------------------------------------
+2 :  Processing :https://www.domain.com.au/420-55-villiers-street-north-melbourne-vic-3051-2013470688
+----------------------------------------------------------------------
+Data Collection : Data Collection DOMAIN.COM.AU----  2018-05-16 11:37:57.107391
+----------------------------------------------------------------------

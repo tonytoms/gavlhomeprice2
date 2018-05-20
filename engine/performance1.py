@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 
 filename1='DNNRegOut'
-filename2='DNNRegShallowOut'
+filename2='lasso_ridge_xgb_v2'
 
 
 dataFilesMaster= open('../data/data_domains5.csv','r',encoding="utf8")

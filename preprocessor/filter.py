@@ -23,7 +23,7 @@ for dataStr in dataFiles:
 
     
     data=dataStr.split(",")
-    if data[12]=="NA" or data[24]=="NA"  or data[25]=="NA" or data[40]=="NA" or data[44]=="NA" or data[47]=="NA" :
+    if data[12]=="0" or data[24]=="0"  or data[25]=="0" or data[40]=="0" or data[44]=="0" or data[47]=="0" :
         continue
     else:
         del data[1]
@@ -37,7 +37,7 @@ for dataStr in dataFilesT:
 
     
     data=dataStr.split(",")
-    if data[12]=="NA" or data[24]=="NA"  or data[25]=="NA" or data[40]=="NA" or data[44]=="NA" or data[47]=="NA" :
+    if data[12]=="0" or data[24]=="0"  or data[25]=="0" or data[40]=="0" or data[44]=="0" or data[47]=="0" :
         continue
     else:
         del data[1]

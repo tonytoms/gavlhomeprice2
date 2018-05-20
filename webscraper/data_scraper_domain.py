@@ -17,10 +17,22 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 '''
 Created on Dec 25, 2017
+     Execution Order : 2
+     Input files: links_domain.csv
+     Output Files: data_domain.csv 
+     Input : 
+             1- Starting listing number from links_domain.csv(usually 1)
+     
+
+This file collects data from each listing link given in links_domain.csv
+
 
 @author: Tony Toms
 '''
 
+
+
+# This function writes the collected data of a single listing to the output file. The data is saved onto an array named 'data'
 def data_writter(dataFile,data):
     for dataCount in range(0,43):
         if dataCount==0 :
@@ -29,11 +41,17 @@ def data_writter(dataFile,data):
     dataFile.write("\n")
     dataFile.flush()
     return True
-def driver_loader(urlHist,drivr):
-    drivr.get(urlHist)
+
+
+
+#Loads The Driver with the url
+def driver_loader(urlAddr,drivr):
+    drivr.get(urlAddr)
     return True
 
-#get Weather data
+
+
+#get Weather data from the csv file saved in files directory
 def getWeatherData(filenamePointer,year,month,day):
     
     retVal=""
@@ -42,6 +60,8 @@ def getWeatherData(filenamePointer,year,month,day):
     keywordsYear=[year]
     keywordsMonth=[month]
     keywordsDay=[day]
+    
+    # Row with corresponding year month and day
     df2 = df1[df1["Year"].isin(keywordsYear) & df1["Month"].isin(keywordsMonth) & df1["Day"].isin(keywordsDay)] 
     # write the data back to a csv file 
     
@@ -55,20 +75,16 @@ def getWeatherData(filenamePointer,year,month,day):
 
     return retVal
 
-#format the price , remove commas a
+
+
+# This function formats price.  Removes all commas, symbols notations etc
 def price_formatter(inp):
     if inp is None:
         return "0"
     if inp== "":
         return "0"
-    '''
-    inp=inp.replace("\n", "").replace('\r', '')  
-    inp=inp.replace("k","000")
-    inp=inp.replace("K","000")
-    inp=inp.replace("m","0000")
-    inp=inp.replace("M","0000")
-    '''
-    #
+
+    
     inp=inp.replace(",", "")   
     inp=inp.replace("$", "")
     inp=inp.replace(" ", "")   
@@ -90,12 +106,12 @@ def price_formatter(inp):
     except :
         return ""
 
-    
-
-    
     outp= inp
     return outp
   
+
+
+# This function formats the date to dd/mm/yyyy
 def dateFormatter(dateAuc):
     datestr=""
     try:
@@ -109,9 +125,10 @@ def dateFormatter(dateAuc):
         
         
     except ValueError as e:
-        #print(" DATE ERRORR:::"+e)
         datestr=""
     return datestr
+
+
 
 #READ links_realestate.csv' and extract the links and returns a list of links
 def getLinks(arlist):
@@ -132,7 +149,9 @@ def getLinks(arlist):
 
 
 ########## PROGRAM STARTS                      ###################################################################################################
-data=[]
+
+
+data=[] #The collected data will be saved in this array 
 
 #create column
 for i in range(0,43):
@@ -176,7 +195,7 @@ data[35]="35-max_temp"
 data[36]="36-Rainfall"
 data[37]="37-distance_cbd"
 data[38]="38-distance_train_station"
-data[39]="39-distance_bus_school"
+data[39]="39-distance_bus_stop"
 data[40]="40-distance_shopping_mall"
 data[41]="41-distance_school"
 data[42]="42-properties_sold_suburb"
@@ -186,8 +205,7 @@ LinksFile= open('../data/data_links.csv','a',encoding="utf8")
 #dataFile.write("no,Link,street,Suburb_add,post,sold_year,status,property_type,bed,bath,car,price,Estimate_low_end,Estimate_high_end,Ext_price_estimate,garden,pool,heating,cooling,neigh_bed_1,neigh_bath_1,neigh_car_1,neigh_price_1,neigh_bed_2,neigh_bath_2,neigh_car_2,neigh_price_2,smlr_pprty_price_1,smlr_pprty_price_2,floor_size,build_size,build_year,num_solds,num_rents,last_sold_price,last_rent_price,last_sold_year,last_rent_year,min_temp,max_temp,Rainfall,near_supermarket,near_school,near_sec_college,near_univ \n")
 data_writter(dataFile, data)
 uclient=urllib.request.urlopen('https://www.google.com.au/')
-#drivr=webdriver.Firefox(executable_path=r'D:\workspace\GAVL\geckodriver-v0.19.1-win32\geckodriver.exe')
-#drivr=webdriver.Chrome("D:\workspace\GAVL\chromedriver_win32\chromedriver.exe")
+
 
 
 chromeOptions = webdriver.ChromeOptions()
@@ -199,8 +217,8 @@ drivr = webdriver.Chrome("D:\workspace\GAVL\chromedriver_win32\chromedriver.exe"
 
 loggerFile=logger.init()
 logger.fileWriteln("----------------------------------------------------------------------",loggerFile)
-logger.fileWriteln("STEP 3 of 5 : Data Collection DOMAIN.COM.AU----  "+str(datetime.now()),loggerFile)
-print("STEP 4 of 5 : Data Collection DOMAIN.COM.AU----------")
+logger.fileWriteln("Data Collection : Data Collection DOMAIN.COM.AU----  "+str(datetime.now()),loggerFile)
+print("Data Collection : Data Collection DOMAIN.COM.AU----------")
 logger.fileWriteln("----------------------------------------------------------------------",loggerFile)
 
 start = input("ENter the STarting Listing Number(Enter 1 to begin from start):")
@@ -286,8 +304,7 @@ for link in links:
     print("1:"+str(datetime.now()))
 
     
-    #pool2 = ThreadPool(processes=2)
-    #async_result2 = pool2.apply_async(driver_loader, (urlHist, drivr)) # tuple of args for foo
+
     driver_loader(urlHist, drivr)
     LinksFileData.append(urlHist)
 
@@ -298,18 +315,13 @@ for link in links:
     data[2]=link
 
 
-
-
-
     
     dateAuc= soup.select('span[class*="listing-details__summary-tag"]')
     if len(dateAuc)<1:
         main_count=main_count+1
         continue
     
-
-
-    
+   
 
     #STREET ADDRESS  ##########################################################################################################
     streetAddress= soup.select('h1')[0].text.strip()
@@ -341,10 +353,8 @@ for link in links:
 
 
      
-    distance_matrix_list=[0,0,0,0,0,0,0]
-    #pool = ThreadPool(processes=1)
-    # async_result = pool.apply_async(distance_google_api_wrapper, (distance_matrix_list,addressGoogle+","+data[4]+","+data[5]+"vic",keys[0], loggerFile)) # tuple of args for foo
-    
+    distance_matrix_list=[0,0,0,0,0,0,0] 
+   
     
     #AUCTION DATE  , STATUS   ####################################################################################################################
     dateAuc= soup.select('span[class*="listing-details__summary-tag"]')
@@ -384,41 +394,17 @@ for link in links:
     if len(details)>0:
         data[8]=details[0].text# 8 property Type
     
-    ''' 
-    if len(details)>1:
-        internalsize=details[1].text
-    if len(details)>2:
-        propertyType=details[2].text        
-        propertyType2=propertyType.strip()
-        propertyType2=propertyType2.replace(",","|")
-        #dataFile.write(propertyType2+",") # 8 property Type
-        data[8]=(propertyType2) # 8 property Type
-    
-    else:
-        pprty= soup.select('ul[class*="list-vertical"]')
-        if len(pprty)>0:
-            matching = pprty[len(pprty)-1]
-            propertyType2List=matching.text.split(':')
-            if len(propertyType2List)>1:
-                propertyType2=propertyType2List[1].strip()
-                propertyType2=propertyType2.replace(",","|")            
-                #dataFile.write(propertyType2+",") # 8 property Type
-                data[8]=(propertyType2) # 8 property Type
-            
-    '''    
-     
+ 
     # BED, Bath, GARRAGE   ####################################################################################################################
     features= soup.findAll("span", {"class":"f-icon with-text"})
     if len(features)>0:
         if len(re.findall('\d+', features[0].text ))>0:
-            #dataFile.write(re.findall('\d+', features[0].text )[0]+",")# 9 Beds\
             data[9]=(re.findall('\d+', features[0].text )[0])# 9 Beds\
 
 
 
     if len(features)>1:
         if len(re.findall('\d+', features[1].text ))>0:
-            #dataFile.write(re.findall('\d+', features[1].text )[0]+",")#10 baths
             data[10]=(re.findall('\d+', features[1].text )[0])#10 baths
 
 
@@ -426,7 +412,6 @@ for link in links:
 
     if len(features)>2:
         if len(re.findall('\d+', features[2].text ))>0:
-            #dataFile.write(re.findall('\d+', features[2].text )[0]+",")#11 Garage
             data[11]=(re.findall('\d+', features[2].text )[0])#11 Garage
 
 
@@ -456,9 +441,7 @@ for link in links:
     #EXTERNAL PRICE ESTIMATOR ENDS    ####################################################################################################################
     
     
-    #return_val2 = async_result2.get()  # get the return value from your function.
-
-    
+   
     
     page2= drivr.page_source;
     soup2= bs.BeautifulSoup(page2,'html.parser');    
@@ -492,8 +475,7 @@ for link in links:
   
     # Garden,pool,heating,cooling
     # Long term resident, rented, singles
-    #print(soup)
-    #neighbourhoodInsight=soup.find('section[class*="neighbourhood-insights"]')
+
     neighbourhoodInsight=soup.findAll("section", {"class": "neighbourhood-insights"})
     if neighbourhoodInsight is not None and len(neighbourhoodInsight)>0:
         #longTermResident=neighbourhoodInsight[0].find('text[class*="single-value-doughnut-graph__text"]')
@@ -501,9 +483,7 @@ for link in links:
         if longTermResident is not None and len(longTermResident)>0:
             data[16]=(longTermResident[0].text.replace("%",""))#16 Long Term Resident
         
-        #rentedList=neighbourhoodInsight[0].select('div[class*="composite-bar-graph__bar-right.has-right-colour"]')
         rentedList=neighbourhoodInsight[0].select('div.composite-bar-graph__bar-right,div.has-right-colour')
-        #rentedList=neighbourhoodInsight[0].findAll("div", {"class": "composite-bar-graph__bar-right.has-right-colour"})
         
         rentcont=0
         for rented in rentedList:
@@ -512,14 +492,14 @@ for link in links:
                 data[17]=rented.text.replace("%","") #17 % rented
             else:
                 data[18]=rented.text.replace("%","") #18 % singles
-    # NEAREST SCHOOL
-    
-    
+    # NEAREST SCHOOL  ##################################################################################################################################################
+  
     nearestschool=soup.select('span[class*="school-catchment__school-distance"]')
     if nearestschool is not None and len(nearestschool)>0:
         data[41]=nearestschool[0].text.replace("km","")
     
-    # Garden,pool,heating,cooling
+    # Garden,pool,heating,cooling##################################################################################################################################################
+
     try:
         
         tellmemorelist=soup.select('div[class*="listing-details__description"]')
@@ -542,14 +522,14 @@ for link in links:
         else:
             data[22]=("no")#22 cooling
     except:
-        #dataFile.write(",,,,")#14,15,16,17
         logger.fileWriteln("\n    ***  ERROR: in Garden ,pool heating,cooling:"+traceback.format_exc())            
         
         
 
  
 
-    #SIMILAR PROPERTY SALES  
+    #SIMILAR PROPERTY SALES  ####################################################################################################
+
     similar=0
     for simi in drivr.find_elements_by_xpath('.//div[@class = "properties-like-this__heading"]'):
         similar=similar+1
@@ -563,9 +543,7 @@ for link in links:
     
 
 
-    #print("6:"+str(datetime.now()))
 
-    #dataFile.write(",,,")#28,29,30 floor_size,build_size,build_year
     sold=0
     soldCheck=0
     rentCheck=0
@@ -574,7 +552,6 @@ for link in links:
     soldYear=""
     soldPrice=""
     rentPrice=""
-    #drivr.get("https://www.domain.com.au/property-profile/1513-1-queens-road-melbourne-vic-3000")
     try:
         drivr.find_element_by_css_selector('.button.button__muted').click()
     except:
@@ -620,7 +597,7 @@ for link in links:
     data[32]=rentPrice
     data[33]=rentYear
     
-    #Weather 
+    #Weather ####################################################################################################
     dateformattedList=dateformatted.split("/")
     if dateformattedList is not None and len(dateformattedList)>2:
         tempmax=getWeatherData(file_temp_max, dateformattedList[2], dateformattedList[1], dateformattedList[0])
@@ -651,12 +628,10 @@ for link in links:
         url4=url4+streetOTH0List[0]
     data[25]=url4
     print(url4)
-    #http://www.onthehouse.com.au/real_estate/vic/burwood_3125/Delany_Avenue?unitNumber=201&streetNumber=1
     driver_loader(url4, drivr)
     try:
         
-        #pricestObj=drivr.find_element_by_css_selector('span.price.ng-binding')
-        #pricest=pricestObj.text
+
         
         drivr.find_element_by_css_selector('div.property-list').click()
         
@@ -671,7 +646,6 @@ for link in links:
         for legalObj in legalObjs:
             print(legalObj.text)
             if "year" in legalObj.text.lower():
-                    #data[26]= re.findall('\d+', legalObj.text)
                     data[27] = ''.join(x for x in legalObj.text if x.isdigit())
             elif "land" in legalObj.text.lower() and "size" in legalObj.text.lower():
                     data[26] = ''.join(x for x in legalObj.text if x.isdigit())
@@ -710,13 +684,10 @@ for link in links:
     soup4= bs.BeautifulSoup(page4,'html.parser');
     
     #NEAREST SUPERMARKET,RESTAURENT,SCHOOL,TRAIN_STOP,BUS_STOP,TRAM_STOP
-    #return_val = async_result.get()  # get the return value from your function.
     data[37]=distance_matrix_list[1]
     data[38]=distance_matrix_list[2]
     data[39]=distance_matrix_list[3]
     data[40]=distance_matrix_list[4]
-    #dataFile.write(str(distance_matrix_list[0])+","+str(distance_matrix_list[1])+","+str(distance_matrix_list[2])+","+str(distance_matrix_list[3])+",")
-    #dataFile.write("\n")
     print("5:"+str(datetime.now()))
     
     data_writter(dataFile, data)
