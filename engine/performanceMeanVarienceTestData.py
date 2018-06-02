@@ -3,10 +3,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 
-filename1='DNNOut'
+filename1='lasso_ridge_xgb_v2'
 filename2='lasso_ridge_xgb_v2'
 
-dataFilesMaster= open('../data/data_domains5.csv','r',encoding="utf8")
+dataFilesMaster= open('../data/data_domains6.csv','r',encoding="utf8")
 dataFile1= open("../data/"+filename1+'.csv','r',encoding="utf8")
 dataFile2= open("../data/"+filename2+'.csv','r',encoding="utf8")
 
@@ -27,7 +27,7 @@ for data in dataFilesMaster:
         continue
     if len(data1)<2:
         continue
-    masterDirectory[data1[0]]=data1[47].replace("\n","")
+    masterDirectory[data1[0]]=data1[46].replace("\n","")
     
 
 #outputFile.write("ID,ActualPrice,DNN_PRICE,Difference,Percent_DIFF  \n")
